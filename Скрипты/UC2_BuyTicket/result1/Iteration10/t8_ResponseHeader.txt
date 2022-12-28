@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sun, 25 Dec 2022 16:19:00 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Sat, 24 Dec 2022 16:19:00 GMT
+Set-Cookie: MTUserInfo=firstName&&username&user10&address2&&hash&16&address1&&lastName&%0A; path=/
+Keep-Alive: timeout=5, max=92
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+

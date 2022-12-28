@@ -1,0 +1,3 @@
+"advanceDiscount=0&depart=Zurich&departDate=12%2F25%2F2022&arrive=Los+Angeles&returnDate=%DF%ED"
+"%E2%E0%F0%FC+23%2C+2023&numPassengers=1&seatPref=None&seatType=Oxford2&findFlights.x=43&findFl"
+"ights.y=7&.cgifields=roundtrip&.cgifields=seatType&.cgifields=seatPref"
