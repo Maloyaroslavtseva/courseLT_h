@@ -1,4 +1,4 @@
-# 1 "c:\\users\\edwpo\\onedrive\\\344\356\352\363\354\345\355\362\373\\vugen\\scripts\\uc2_buyticket\\\\combined_UC2_BuyTicket.c"
+# 1 "c:\\users\\edwpo\\courselt\\\361\352\360\350\357\362\373\\uc2_buyticket\\\\combined_UC2_BuyTicket.c"
 # 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/lrun.h" 1
  
  
@@ -968,7 +968,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "c:\\users\\edwpo\\onedrive\\\344\356\352\363\354\345\355\362\373\\vugen\\scripts\\uc2_buyticket\\\\combined_UC2_BuyTicket.c" 2
+# 1 "c:\\users\\edwpo\\courselt\\\361\352\360\350\357\362\373\\uc2_buyticket\\\\combined_UC2_BuyTicket.c" 2
 
 # 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1136,7 +1136,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "c:\\users\\edwpo\\onedrive\\\344\356\352\363\354\345\355\362\373\\vugen\\scripts\\uc2_buyticket\\\\combined_UC2_BuyTicket.c" 2
+# 2 "c:\\users\\edwpo\\courselt\\\361\352\360\350\357\362\373\\uc2_buyticket\\\\combined_UC2_BuyTicket.c" 2
 
 # 1 "globals.h" 1
 
@@ -2593,14 +2593,14 @@ void
  
 
 
-# 3 "c:\\users\\edwpo\\onedrive\\\344\356\352\363\354\345\355\362\373\\vugen\\scripts\\uc2_buyticket\\\\combined_UC2_BuyTicket.c" 2
+# 3 "c:\\users\\edwpo\\courselt\\\361\352\360\350\357\362\373\\uc2_buyticket\\\\combined_UC2_BuyTicket.c" 2
 
 # 1 "vuser_init.c" 1
 vuser_init()
 {
 	return 0;
 }
-# 4 "c:\\users\\edwpo\\onedrive\\\344\356\352\363\354\345\355\362\373\\vugen\\scripts\\uc2_buyticket\\\\combined_UC2_BuyTicket.c" 2
+# 4 "c:\\users\\edwpo\\courselt\\\361\352\360\350\357\362\373\\uc2_buyticket\\\\combined_UC2_BuyTicket.c" 2
 
 # 1 "Action.c" 1
 Action()
@@ -2656,6 +2656,8 @@ Action()
 		"LAST");
 	
 	lr_end_transaction("open_sight",2);
+	
+	
 
 	lr_start_transaction("login");
 	
@@ -2695,7 +2697,6 @@ Action()
 
 	lr_start_transaction("flights");
 	
-	
 	web_reg_find("Fail=NotFound",
 		"Text/IC=Find Flight",
 		"LAST");
@@ -2730,7 +2731,7 @@ Action()
 	lr_save_datetime ("%m/%d/%Y", 0, "pDate1");
  
 	
-	lr_save_datetime ("%B %d, %Y", 0 +86400*randNumber, "pDate2");
+	lr_save_datetime ("%m/%d/%Y", 0 +86400*randNumber, "pDate2");
 	
  
 	web_reg_save_param_attrib(
@@ -2771,7 +2772,7 @@ Action()
 
 	lr_think_time(95);
 
-	lr_start_transaction("flights");
+	lr_start_transaction("flight_selection");
 
 	web_reg_find("Fail=NotFound",
 		"Text/IC=Payment Details",
@@ -2795,7 +2796,7 @@ Action()
 		"Name=reserveFlights.y", "Value=7", "ENDITEM", 
 		"LAST");
 
-	lr_end_transaction("flights",2);
+	lr_end_transaction("flight_selection",2);
 
 	lr_start_transaction("payment");
 
@@ -2851,12 +2852,12 @@ Action()
 	
 	return 0;
 }
-# 5 "c:\\users\\edwpo\\onedrive\\\344\356\352\363\354\345\355\362\373\\vugen\\scripts\\uc2_buyticket\\\\combined_UC2_BuyTicket.c" 2
+# 5 "c:\\users\\edwpo\\courselt\\\361\352\360\350\357\362\373\\uc2_buyticket\\\\combined_UC2_BuyTicket.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 6 "c:\\users\\edwpo\\onedrive\\\344\356\352\363\354\345\355\362\373\\vugen\\scripts\\uc2_buyticket\\\\combined_UC2_BuyTicket.c" 2
+# 6 "c:\\users\\edwpo\\courselt\\\361\352\360\350\357\362\373\\uc2_buyticket\\\\combined_UC2_BuyTicket.c" 2
 

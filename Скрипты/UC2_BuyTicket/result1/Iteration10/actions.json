@@ -6,81 +6,81 @@
                 "stepId": "STEP55",
                 "stepName": "Url: welcome.pl",
                 "infFile": "t2.inf",
-                "time": 1671985138927
+                "time": 1672330380218
             },
             {
                 "stepId": "STEP56",
                 "stepName": "Submit Data: login.pl",
                 "infFile": "t3.inf",
-                "time": 1671985139185
+                "time": 1672330380454
             },
             {
                 "stepId": "STEP57",
                 "stepName": "Url: Search Flights Button",
                 "infFile": "t4.inf",
-                "time": 1671985139471
+                "time": 1672330380705
             },
             {
                 "stepId": "STEP58",
                 "stepName": "Submit Data: reservations.pl",
                 "infFile": "t6.inf",
-                "time": 1671985139716
+                "time": 1672330380923
             },
             {
                 "stepId": "STEP59",
                 "stepName": "Submit Data: reservations.pl_2",
                 "infFile": "t7.inf",
-                "time": 1671985139896
+                "time": 1672330381066
             },
             {
                 "stepId": "STEP60",
                 "stepName": "Submit Data: reservations.pl_3",
                 "infFile": "t8.inf",
-                "time": 1671985140148
+                "time": 1672330381304
             }
         ],
         "transactions": [
             {
                 "transactionName": "open_sight",
-                "rawStartTime": 1671985138630,
-                "rawEndTime": 1671985138943,
+                "rawStartTime": 1672330379948,
+                "rawEndTime": 1672330380229,
                 "thinkTime": 0.0,
-                "wastedTime": 0.03849220275878906
+                "wastedTime": 0.030620336532592775
             },
             {
                 "transactionName": "login",
-                "rawStartTime": 1671985138959,
-                "rawEndTime": 1671985139187,
+                "rawStartTime": 1672330380245,
+                "rawEndTime": 1672330380463,
                 "thinkTime": 0.0,
-                "wastedTime": 0.03737807273864746
+                "wastedTime": 0.0320281982421875
             },
             {
                 "transactionName": "flights",
-                "rawStartTime": 1671985139204,
-                "rawEndTime": 1671985139483,
+                "rawStartTime": 1672330380479,
+                "rawEndTime": 1672330380714,
                 "thinkTime": 0.0,
-                "wastedTime": 0.038799285888671878
+                "wastedTime": 0.03259634971618652
             },
             {
                 "transactionName": "find_flights",
-                "rawStartTime": 1671985139498,
-                "rawEndTime": 1671985139732,
+                "rawStartTime": 1672330380733,
+                "rawEndTime": 1672330380925,
                 "thinkTime": 0.0,
-                "wastedTime": 0.04244875907897949
+                "wastedTime": 0.03689217567443848
             },
             {
-                "transactionName": "flights",
-                "rawStartTime": 1671985139764,
-                "rawEndTime": 1671985139904,
+                "transactionName": "flight_selection",
+                "rawStartTime": 1672330380956,
+                "rawEndTime": 1672330381081,
                 "thinkTime": 0.0,
-                "wastedTime": 0.03855609893798828
+                "wastedTime": 0.03000617027282715
             },
             {
                 "transactionName": "payment",
-                "rawStartTime": 1671985139920,
-                "rawEndTime": 1671985140154,
+                "rawStartTime": 1672330381097,
+                "rawEndTime": 1672330381316,
                 "thinkTime": 0.0,
-                "wastedTime": 0.04134249687194824
+                "wastedTime": 0.02948164939880371
             }
         ]
     }

@@ -1,4 +1,4 @@
-"firstName=Jojo&lastName=Bean&address1=Bean&address2=London&pass1=Jojo+Bean&creditCard=12345678"
-"91&expDate=10%2F30&oldCCOption=&numPassengers=1&seatType=Oxford&seatPref=None&outboundFlight=5"
-"70%3B121%3B12%2F25%2F2022&advanceDiscount=0&returnFlight=&JSFormSubmit=off&buyFlights.x=35&buy"
-"Flights.y=10&.cgifields=saveCC"
+"firstName=Jojo&lastName=Bean&address1=Oxford&address2=London&pass1=Jojo+Bean&creditCard=123456"
+"7891&expDate=10%2F30&oldCCOption=&numPassengers=1&seatType=First&seatPref=Aisle&outboundFlight"
+"=270%3B1060%3B12%2F29%2F2022&advanceDiscount=0&returnFlight=&JSFormSubmit=off&buyFlights.x=35&"
+"buyFlights.y=10&.cgifields=saveCC"

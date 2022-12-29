@@ -1,2 +1,2 @@
-"outboundFlight=460%3B1167%3B12%2F25%2F2022&numPassengers=1&advanceDiscount=0&seatType=Oxford8&"
-"seatPref=Aisle&reserveFlights.x=43&reserveFlights.y=7"
+"outboundFlight=510%3B320%3B12%2F29%2F2022&numPassengers=1&advanceDiscount=0&seatType=Coach&sea"
+"tPref=Aisle&reserveFlights.x=43&reserveFlights.y=7"

@@ -13,17 +13,25 @@
     <FileEntry Name="default.usp" Filter="4" />
     <FileEntry Name="UC2_BuyTicket.prm" Filter="2" />
     <FileEntry Name="globals.h" Filter="2" />
-    <FileEntry Name="Cities.dat" Filter="2" />
-    <FileEntry Name="Users.dat" Filter="2" />
-    <FileEntry Name="seatPref.dat" Filter="2" />
+    <FileEntry Name="parameters\" Filter="2" />
     <FileEntry Name="combined_UC2_BuyTicket.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="113782240440.idx" Filter="1" />
+    <FileEntry Name="11378224044_4UQ.282.idx" Filter="1" />
+    <FileEntry Name="11378224044_RZF.284.idx" Filter="1" />
     <FileEntry Name="122941708440.idx" Filter="1" />
     <FileEntry Name="126482924440.idx" Filter="1" />
     <FileEntry Name="12648292444_byw.841.idx" Filter="1" />
     <FileEntry Name="12648292444_zB2.463.idx" Filter="1" />
+    <FileEntry Name="148013668440.idx" Filter="1" />
+    <FileEntry Name="14801366844_q4w.283.idx" Filter="1" />
+    <FileEntry Name="14801366844_xut.281.idx" Filter="1" />
+    <FileEntry Name="18896320440.idx" Filter="1" />
+    <FileEntry Name="200419053440.idx" Filter="1" />
     <FileEntry Name="218353477440.idx" Filter="1" />
-    <FileEntry Name="address2.dat" Filter="1" />
+    <FileEntry Name="229466319440.idx" Filter="1" />
+    <FileEntry Name="32811583440.idx" Filter="1" />
+    <FileEntry Name="59316468440.idx" Filter="1" />
     <FileEntry Name="b" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
@@ -39,7 +47,6 @@
     <FileEntry Name="OutputColoringDatabase.json" Filter="1" />
     <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
-    <FileEntry Name="seatType.dat" Filter="1" />
     <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
     <FileEntry Name="TransactionsData.db" Filter="1" />
     <FileEntry Name="UC2_BuyTicket.c.pickle" Filter="1" />

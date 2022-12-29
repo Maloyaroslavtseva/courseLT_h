@@ -1,3 +1,3 @@
-"advanceDiscount=0&depart=Paris&departDate=12%2F25%2F2022&arrive=San+Francisco&returnDate=%DF%E"
-"D%E2%E0%F0%FC+08%2C+2023&numPassengers=1&seatPref=Aisle&seatType=Oxford8&findFlights.x=43&find"
-"Flights.y=7&.cgifields=roundtrip&.cgifields=seatType&.cgifields=seatPref"
+"advanceDiscount=0&depart=Portland&departDate=12%2F29%2F2022&arrive=Frankfurt&returnDate=01%2F1"
+"0%2F2023&numPassengers=1&seatPref=Aisle&seatType=Coach&findFlights.x=43&findFlights.y=7&.cgifi"
+"elds=roundtrip&.cgifields=seatType&.cgifields=seatPref"
