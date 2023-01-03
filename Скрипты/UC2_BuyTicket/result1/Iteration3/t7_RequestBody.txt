@@ -1,2 +1,4 @@
-"outboundFlight=70%3B292%3B12%2F29%2F2022&numPassengers=1&advanceDiscount=0&seatType=Coach&seat"
-"Pref=Window&reserveFlights.x=43&reserveFlights.y=7"
+"firstName=User3&lastName=User_3&address1=Oxford3&address2=London3&pass1=User3+User_3&creditCar"
+"d=111122223333&expDate=10%2F31&oldCCOption=&numPassengers=1&seatType=First&seatPref=Window&out"
+"boundFlight=%7BoutboundFlight%7D&advanceDiscount=0&returnFlight=&JSFormSubmit=off&buyFlights.x"
+"=35&buyFlights.y=10&.cgifields=saveCC"

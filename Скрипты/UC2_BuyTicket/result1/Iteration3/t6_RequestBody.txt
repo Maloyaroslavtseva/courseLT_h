@@ -1,3 +1,2 @@
-"advanceDiscount=0&depart=Seattle&departDate=12%2F29%2F2022&arrive=Denver+&returnDate=01%2F25%2"
-"F2023&numPassengers=1&seatPref=Window&seatType=Coach&findFlights.x=43&findFlights.y=7&.cgifiel"
-"ds=roundtrip&.cgifields=seatType&.cgifields=seatPref"
+"outboundFlight=%7BoutboundFlight%7D&numPassengers=1&advanceDiscount=0&seatType=First&seatPref="
+"Window&reserveFlights.x=43&reserveFlights.y=7"

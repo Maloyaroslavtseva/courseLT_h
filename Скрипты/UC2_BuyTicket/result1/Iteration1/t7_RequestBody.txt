@@ -1,2 +1,4 @@
-"outboundFlight=270%3B1060%3B12%2F29%2F2022&numPassengers=1&advanceDiscount=0&seatType=First&se"
-"atPref=Aisle&reserveFlights.x=43&reserveFlights.y=7"
+"firstName=Jojo&lastName=Bean&address1=Oxford&address2=London&pass1=Jojo+Bean&creditCard=123456"
+"7891&expDate=10%2F30&oldCCOption=&numPassengers=1&seatType=Coach&seatPref=Aisle&outboundFlight"
+"=%7BoutboundFlight%7D&advanceDiscount=0&returnFlight=&JSFormSubmit=off&buyFlights.x=35&buyFlig"
+"hts.y=10&.cgifields=saveCC"

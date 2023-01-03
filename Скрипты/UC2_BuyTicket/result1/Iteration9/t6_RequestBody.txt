@@ -1,3 +1,2 @@
-"advanceDiscount=0&depart=London&departDate=12%2F29%2F2022&arrive=Los+Angeles&returnDate=01%2F2"
-"4%2F2023&numPassengers=1&seatPref=Aisle&seatType=Business&findFlights.x=43&findFlights.y=7&.cg"
-"ifields=roundtrip&.cgifields=seatType&.cgifields=seatPref"
+"outboundFlight=%7BoutboundFlight%7D&numPassengers=1&advanceDiscount=0&seatType=Business&seatPr"
+"ef=Aisle&reserveFlights.x=43&reserveFlights.y=7"

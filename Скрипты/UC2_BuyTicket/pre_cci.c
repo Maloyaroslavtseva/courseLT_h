@@ -2734,15 +2734,22 @@ Action()
 	lr_save_datetime ("%m/%d/%Y", 0 +86400*randNumber, "pDate2");
 	
  
-	web_reg_save_param_attrib(
-		"ParamName=outboundFlight",
-		"TagName=input",
-		"Extract=value",
-		"Name=outboundFlight",
-		"Type=radio",
-		"SEARCH_FILTERS",
-		"IgnoreRedirections=No",
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+	web_reg_save_param("outboundFlight",
+		"LB=outboundFlight\" value=\"",
+		"RB=\"",
+		"Ord=ALL",
 		"LAST");
+
 
 	web_submit_data("reservations.pl", 
 		"Action=http://localhost:1080/cgi-bin/reservations.pl", 
@@ -2767,6 +2774,11 @@ Action()
 		"Name=.cgifields", "Value=seatType", "ENDITEM", 
 		"Name=.cgifields", "Value=seatPref", "ENDITEM", 
 		"LAST");
+		
+		
+    lr_save_string(lr_paramarr_random("outboundFlight"), "outboundFligh");
+
+	
 
 	lr_end_transaction("find_flights",2);
 

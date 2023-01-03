@@ -1,3 +1,2 @@
-"advanceDiscount=0&depart=Portland&departDate=12%2F29%2F2022&arrive=Frankfurt&returnDate=01%2F1"
-"0%2F2023&numPassengers=1&seatPref=Aisle&seatType=Coach&findFlights.x=43&findFlights.y=7&.cgifi"
-"elds=roundtrip&.cgifields=seatType&.cgifields=seatPref"
+"outboundFlight=%7BoutboundFlight%7D&numPassengers=1&advanceDiscount=0&seatType=Coach&seatPref="
+"None&reserveFlights.x=43&reserveFlights.y=7"
