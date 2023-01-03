@@ -1,7 +1,34 @@
 Action()
 {
-	int randNumber;
+	int cities_size = 10; // размер массива городов
+	
+	// массив городов
+	static char* cities[10] = {
+    	"Denver",
+        "Frankfurt",
+        "London",
+        "Los Angeles",
+        "Paris",
+        "Portland",
+        "San Francisco",
+        "Seattle",
+        "Sydney",
+        "Zurich" };
+
+    
+	int randNumber, //  
+	idep, // индекс города отправления
+	iarr; // индекс грода прибытия
+	
 	randNumber = rand()%30 + 1;  //Generate Random Number between 1 to 30
+	idep = rand()%cities_size; // выбор случайгоно числа от 0 до 9
+	iarr = rand()%cities_size; // выбор случайгоно числа от 0 до 9
+	while(idep == iarr ) {         // пока индексы не станут разными 
+    	iarr = rand()%cities_size; // изменяем индекс города прибытия
+	}
+	
+	lr_save_string(cities[idep], "depart"); // в параметр depart сохраняем город отправления согласно выбранному индексу
+    lr_save_string(cities[iarr], "arrive"); // в параметр arrive сохраняем город прибытия согласно выбранному индексу
 	
     lr_start_transaction("open_sight");
 	
@@ -156,9 +183,9 @@ Action()
 		"Mode=HTML", 
 		ITEMDATA, 
 		"Name=advanceDiscount", "Value=0", ENDITEM, 
-		"Name=depart", "Value={depart}", ENDITEM, 
+		"Name=depart", "Value=", ENDITEM, 
 		"Name=departDate", "Value={pDate1}", ENDITEM, 
-		"Name=arrive", "Value={arrive}", ENDITEM, 
+		"Name=arrive", "Value=", ENDITEM, 
 		"Name=returnDate", "Value={pDate2}", ENDITEM, 
 		"Name=numPassengers", "Value=1", ENDITEM, 
 		"Name=seatPref", "Value={seatPref}", ENDITEM, 

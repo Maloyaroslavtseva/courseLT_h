@@ -1,3 +1,3 @@
-"advanceDiscount=0&depart=Seattle&departDate=01%2F03%2F2023&arrive=Sydney&returnDate=01%2F15%2F"
-"2023&numPassengers=1&seatPref=Aisle&seatType=First&findFlights.x=43&findFlights.y=7&.cgifields"
-"=roundtrip&.cgifields=seatType&.cgifields=seatPref"
+"advanceDiscount=0&depart=&departDate=01%2F03%2F2023&arrive=&returnDate=01%2F07%2F2023&numPasse"
+"ngers=1&seatPref=None&seatType=Business&findFlights.x=43&findFlights.y=7&.cgifields=roundtrip&"
+".cgifields=seatType&.cgifields=seatPref"

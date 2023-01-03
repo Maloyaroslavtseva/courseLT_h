@@ -2605,8 +2605,35 @@ vuser_init()
 # 1 "Action.c" 1
 Action()
 {
-	int randNumber;
+	int cities_size = 10;  
+	
+	 
+	static char* cities[10] = {
+    	"Denver",
+        "Frankfurt",
+        "London",
+        "Los Angeles",
+        "Paris",
+        "Portland",
+        "San Francisco",
+        "Seattle",
+        "Sydney",
+        "Zurich" };
+
+    
+	int randNumber,  
+	idep,  
+	iarr;  
+	
 	randNumber = rand()%30 + 1;   
+	idep = rand()%cities_size;  
+	iarr = rand()%cities_size;  
+	while(idep == iarr ) {          
+    	iarr = rand()%cities_size;  
+	}
+	
+	lr_save_string(cities[idep], "depart");  
+    lr_save_string(cities[iarr], "arrive");  
 	
     lr_start_transaction("open_sight");
 	
@@ -2761,9 +2788,9 @@ Action()
 		"Mode=HTML", 
 		"ITEMDATA", 
 		"Name=advanceDiscount", "Value=0", "ENDITEM", 
-		"Name=depart", "Value={depart}", "ENDITEM", 
+		"Name=depart", "Value=", "ENDITEM", 
 		"Name=departDate", "Value={pDate1}", "ENDITEM", 
-		"Name=arrive", "Value={arrive}", "ENDITEM", 
+		"Name=arrive", "Value=", "ENDITEM", 
 		"Name=returnDate", "Value={pDate2}", "ENDITEM", 
 		"Name=numPassengers", "Value=1", "ENDITEM", 
 		"Name=seatPref", "Value={seatPref}", "ENDITEM", 
