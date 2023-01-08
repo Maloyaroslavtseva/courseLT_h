@@ -33,6 +33,11 @@ Action()
     
 	
     lr_start_transaction("open_sight");
+    
+    web_reg_find("Fail=NotFound",
+		"Text/IC=Welcome to the Web Tours site.",
+		LAST);
+	
 	
 	web_set_sockets_option("SSL_VERSION", "AUTO");
 
