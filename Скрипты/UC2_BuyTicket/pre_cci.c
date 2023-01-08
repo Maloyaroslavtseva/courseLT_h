@@ -2634,8 +2634,15 @@ Action()
 	
 	lr_save_string(cities[idep], "depart");  
     lr_save_string(cities[iarr], "arrive");  
+    
+    
 	
     lr_start_transaction("open_sight");
+    
+    web_reg_find("Fail=NotFound",
+		"Text/IC=Welcome to the Web Tours site.",
+		"LAST");
+	
 	
 	web_set_sockets_option("SSL_VERSION", "AUTO");
 
@@ -2712,7 +2719,7 @@ Action()
 		"ITEMDATA",
 		"Name=userSession", "Value={userSession}", "ENDITEM",
 		"Name=username", "Value={login}", "ENDITEM",
-		"Name=password", "Value={pasword}", "ENDITEM",
+		"Name=password", "Value={password}", "ENDITEM",
 		"Name=login.x", "Value=43", "ENDITEM",
 		"Name=login.y", "Value=10", "ENDITEM",
 		"Name=JSFormSubmit", "Value=off", "ENDITEM",
@@ -2725,7 +2732,7 @@ Action()
 	lr_start_transaction("flights");
 	
 	web_reg_find("Fail=NotFound",
-		"Text/IC=Find Flight",
+		"Text/IC=Departure City",
 		"LAST");
 
 
@@ -2746,6 +2753,11 @@ Action()
 	lr_end_transaction("flights",2);
 
 	lr_start_transaction("find_flights");
+	
+	
+	web_reg_find("Fail=NotFound",
+		"Text/IC=Flight departing from",
+		"LAST");
 
 	web_add_auto_header("Origin", 
 		"http://localhost:1080");
@@ -2814,7 +2826,7 @@ Action()
 	lr_start_transaction("flight_selection");
 
 	web_reg_find("Fail=NotFound",
-		"Text/IC=Payment Details",
+		"Text/IC=First Name",
 		"LAST");
 	
 	web_submit_data("reservations.pl_2", 

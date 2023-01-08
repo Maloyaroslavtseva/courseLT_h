@@ -1,4 +1,4 @@
 "firstName=User3&lastName=User_3&address1=Oxford3&address2=London3&pass1=User3+User_3&creditCar"
-"d=111122223333&expDate=10%2F31&oldCCOption=&numPassengers=1&seatType=Coach&seatPref=None&outbo"
-"undFlight=%7BoutboundFlight%7D&advanceDiscount=0&returnFlight=&JSFormSubmit=off&buyFlights.x=3"
-"5&buyFlights.y=10&.cgifields=saveCC"
+"d=111122223333&expDate=10%2F31&oldCCOption=&numPassengers=1&seatType=First&seatPref=Aisle&outb"
+"oundFlight=%7BoutboundFlight%7D&advanceDiscount=0&returnFlight=&JSFormSubmit=off&buyFlights.x="
+"35&buyFlights.y=10&.cgifields=saveCC"

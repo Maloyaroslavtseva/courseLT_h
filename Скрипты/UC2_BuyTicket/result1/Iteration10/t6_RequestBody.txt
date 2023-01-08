@@ -1,2 +1,2 @@
-"outboundFlight=%7BoutboundFlight%7D&numPassengers=1&advanceDiscount=0&seatType=Business&seatPr"
-"ef=Aisle&reserveFlights.x=43&reserveFlights.y=7"
+"outboundFlight=%7BoutboundFlight%7D&numPassengers=1&advanceDiscount=0&seatType=Coach&seatPref="
+"Aisle&reserveFlights.x=43&reserveFlights.y=7"
