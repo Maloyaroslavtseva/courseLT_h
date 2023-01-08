@@ -1,0 +1,60 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP31",
+                "stepName": "Url: WebTours",
+                "infFile": "t1.inf",
+                "time": 1673196135025
+            },
+            {
+                "stepId": "STEP32",
+                "stepName": "Url: header.html",
+                "infFile": "t2.inf",
+                "time": 1673196135097
+            },
+            {
+                "stepId": "STEP33",
+                "stepName": "Url: welcome.pl",
+                "infFile": "t3.inf",
+                "time": 1673196135262
+            },
+            {
+                "stepId": "STEP34",
+                "stepName": "Submit Form: login.pl",
+                "infFile": "t4.inf",
+                "time": 1673196135538
+            },
+            {
+                "stepId": "STEP35",
+                "stepName": "Image: SignOff Button",
+                "infFile": "t5.inf",
+                "time": 1673196135793
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "open_sight",
+                "rawStartTime": 1673196134713,
+                "rawEndTime": 1673196135278,
+                "thinkTime": 0.0,
+                "wastedTime": 0.07696390151977539
+            },
+            {
+                "transactionName": "login",
+                "rawStartTime": 1673196135294,
+                "rawEndTime": 1673196135546,
+                "thinkTime": 0.0,
+                "wastedTime": 0.027414798736572267
+            },
+            {
+                "transactionName": "logout",
+                "rawStartTime": 1673196135561,
+                "rawEndTime": 1673196135799,
+                "thinkTime": 0.0,
+                "wastedTime": 0.024990558624267579
+            }
+        ]
+    }
+]

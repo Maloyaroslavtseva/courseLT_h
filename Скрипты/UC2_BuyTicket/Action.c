@@ -29,6 +29,8 @@ Action()
 	
 	lr_save_string(cities[idep], "depart"); // в параметр depart сохраняем город отправления согласно выбранному индексу
     lr_save_string(cities[iarr], "arrive"); // в параметр arrive сохраняем город прибытия согласно выбранному индексу
+    
+    
 	
     lr_start_transaction("open_sight");
 	

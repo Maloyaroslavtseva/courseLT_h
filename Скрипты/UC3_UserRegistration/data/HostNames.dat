@@ -1,0 +1,7 @@
+[hosts]
+localhost=
+clientservices.googleapis.com=
+optimizationguide-pa.googleapis.com=
+clients4.google.com=
+update.googleapis.com=
+safebrowsing.googleapis.com=

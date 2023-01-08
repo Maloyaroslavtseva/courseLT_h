@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\edwpo\courseLT\Скрипты\UC3_UserRegistration
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\edwpo\courselt\скрипты\uc3_userregistration\\logfile.log
+c:\users\edwpo\courselt\скрипты\uc3_userregistration\\combined_UC3_UserRegistration.c
+c:\users\edwpo\courselt\скрипты\uc3_userregistration\\pre_cci.c
