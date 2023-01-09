@@ -1,3 +1,3 @@
-"advanceDiscount=0&depart=&departDate=01%2F08%2F2023&arrive=&returnDate=01%2F12%2F2023&numPasse"
-"ngers=1&seatPref=Aisle&seatType=Coach&findFlights.x=43&findFlights.y=7&.cgifields=roundtrip&.c"
-"gifields=seatType&.cgifields=seatPref"
+"advanceDiscount=0&depart=Zurich&departDate=01%2F21%2F2023&arrive=Portland&returnDate=02%2F06%2"
+"F2023&numPassengers=1&seatPref=None&seatType=First&findFlights.x=43&findFlights.y=7&.cgifields"
+"=roundtrip&.cgifields=seatType&.cgifields=seatPref"
