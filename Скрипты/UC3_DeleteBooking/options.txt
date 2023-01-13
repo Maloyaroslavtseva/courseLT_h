@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\edwpo\courseLT\Скрипты\UC3_DeleteBooking
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\edwpo\courselt\скрипты\uc3_deletebooking\\logfile.log
+c:\users\edwpo\courselt\скрипты\uc3_deletebooking\\combined_UC3_DeleteBooking.c
+c:\users\edwpo\courselt\скрипты\uc3_deletebooking\\pre_cci.c
