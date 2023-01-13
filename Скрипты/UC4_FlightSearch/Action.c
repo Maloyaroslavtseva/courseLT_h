@@ -21,6 +21,8 @@ Action()
 	idep, // индекс города отправления
 	iarr; // индекс грода прибытия
 	
+	lr_start_transaction("UC4_FlightSeach");
+	
 	randNumber = rand()%30 + 1;  //Generate Random Number between 1 to 30
 	idep = rand()%cities_size; // выбор случайгоно числа от 0 до 9
 	iarr = rand()%cities_size; // выбор случайгоно числа от 0 до 9
@@ -192,6 +194,8 @@ Action()
 	
 
 	lr_end_transaction("find_flights",LR_AUTO);
+	
+	lr_end_transaction("UC4_FlightSeach",LR_AUTO);
 
 
 	return 0;

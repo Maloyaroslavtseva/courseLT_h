@@ -1,4 +1,4 @@
-Virtual User Script started at: 08.01.2023 21:08:29
+Virtual User Script started at: 13.01.2023 14:27:38
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 2021.0.0 for Windows 10; build 430 (џэт 05 2021 19:27:22)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
@@ -33,8 +33,8 @@ Action.c(35): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=hom
 Action.c(35): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
 Action.c(35): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
 Action.c(35): Registered web_reg_find successful for "Text=Welcome to the Web Tours site." (count=1)  	[MsgId: MMSG-26364]
-Action.c(35): web_url("welcome.pl") was successful, 4210 body bytes, 1181 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(45): Notify: Transaction "open_sight" ended with a "Pass" status (Duration: 0.4904 Wasted Time: 0.0969).
+Action.c(35): web_url("welcome.pl") was successful, 4215 body bytes, 1181 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(45): Notify: Transaction "open_sight" ended with a "Pass" status (Duration: 0.4124 Wasted Time: 0.0959).
 Ending action Action.
 Ending iteration 1.
 Starting iteration 2.
@@ -63,8 +63,8 @@ Action.c(35): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=hom
 Action.c(35): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
 Action.c(35): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
 Action.c(35): Registered web_reg_find successful for "Text=Welcome to the Web Tours site." (count=1)  	[MsgId: MMSG-26364]
-Action.c(35): web_url("welcome.pl") was successful, 4210 body bytes, 1181 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(45): Notify: Transaction "open_sight" ended with a "Pass" status (Duration: 0.2856 Wasted Time: 0.0099).
+Action.c(35): web_url("welcome.pl") was successful, 4212 body bytes, 1181 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(45): Notify: Transaction "open_sight" ended with a "Pass" status (Duration: 0.3026 Wasted Time: 0.0095).
 Ending action Action.
 Ending iteration 2.
 Starting iteration 3.
@@ -93,8 +93,8 @@ Action.c(35): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=hom
 Action.c(35): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
 Action.c(35): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
 Action.c(35): Registered web_reg_find successful for "Text=Welcome to the Web Tours site." (count=1)  	[MsgId: MMSG-26364]
-Action.c(35): web_url("welcome.pl") was successful, 4216 body bytes, 1181 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(45): Notify: Transaction "open_sight" ended with a "Pass" status (Duration: 0.3022 Wasted Time: 0.0124).
+Action.c(35): web_url("welcome.pl") was successful, 4212 body bytes, 1181 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(45): Notify: Transaction "open_sight" ended with a "Pass" status (Duration: 0,3016 Wasted Time: 0,0127).
 Ending action Action.
 Ending iteration 3.
 Starting iteration 4.
@@ -123,8 +123,8 @@ Action.c(35): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=hom
 Action.c(35): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
 Action.c(35): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
 Action.c(35): Registered web_reg_find successful for "Text=Welcome to the Web Tours site." (count=1)  	[MsgId: MMSG-26364]
-Action.c(35): web_url("welcome.pl") was successful, 4216 body bytes, 1181 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(45): Notify: Transaction "open_sight" ended with a "Pass" status (Duration: 0.3130 Wasted Time: 0.0151).
+Action.c(35): web_url("welcome.pl") was successful, 4212 body bytes, 1181 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(45): Notify: Transaction "open_sight" ended with a "Pass" status (Duration: 0.3024 Wasted Time: 0.0150).
 Ending action Action.
 Ending iteration 4.
 Starting iteration 5.
@@ -153,8 +153,8 @@ Action.c(35): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=hom
 Action.c(35): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
 Action.c(35): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
 Action.c(35): Registered web_reg_find successful for "Text=Welcome to the Web Tours site." (count=1)  	[MsgId: MMSG-26364]
-Action.c(35): web_url("welcome.pl") was successful, 4216 body bytes, 1181 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(45): Notify: Transaction "open_sight" ended with a "Pass" status (Duration: 0.2855 Wasted Time: 0.0178).
+Action.c(35): web_url("welcome.pl") was successful, 4214 body bytes, 1181 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(45): Notify: Transaction "open_sight" ended with a "Pass" status (Duration: 0.3019 Wasted Time: 0.0188).
 Ending action Action.
 Ending iteration 5.
 Starting iteration 6.
@@ -184,7 +184,7 @@ Action.c(35): Detected non-resource "http://localhost:1080/WebTours/home.html" i
 Action.c(35): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
 Action.c(35): Registered web_reg_find successful for "Text=Welcome to the Web Tours site." (count=1)  	[MsgId: MMSG-26364]
 Action.c(35): web_url("welcome.pl") was successful, 4214 body bytes, 1181 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(45): Notify: Transaction "open_sight" ended with a "Pass" status (Duration: 0.3292 Wasted Time: 0.0206).
+Action.c(45): Notify: Transaction "open_sight" ended with a "Pass" status (Duration: 0.2861 Wasted Time: 0.0219).
 Ending action Action.
 Ending iteration 6.
 Starting iteration 7.
@@ -214,7 +214,7 @@ Action.c(35): Detected non-resource "http://localhost:1080/WebTours/home.html" i
 Action.c(35): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
 Action.c(35): Registered web_reg_find successful for "Text=Welcome to the Web Tours site." (count=1)  	[MsgId: MMSG-26364]
 Action.c(35): web_url("welcome.pl") was successful, 4214 body bytes, 1181 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(45): Notify: Transaction "open_sight" ended with a "Pass" status (Duration: 0.3130 Wasted Time: 0.0234).
+Action.c(45): Notify: Transaction "open_sight" ended with a "Pass" status (Duration: 0.3141 Wasted Time: 0.0245).
 Ending action Action.
 Ending iteration 7.
 Starting iteration 8.
@@ -243,8 +243,8 @@ Action.c(35): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=hom
 Action.c(35): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
 Action.c(35): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
 Action.c(35): Registered web_reg_find successful for "Text=Welcome to the Web Tours site." (count=1)  	[MsgId: MMSG-26364]
-Action.c(35): web_url("welcome.pl") was successful, 4214 body bytes, 1181 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(45): Notify: Transaction "open_sight" ended with a "Pass" status (Duration: 0.2996 Wasted Time: 0.0262).
+Action.c(35): web_url("welcome.pl") was successful, 4216 body bytes, 1181 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(45): Notify: Transaction "open_sight" ended with a "Pass" status (Duration: 0.3147 Wasted Time: 0.0307).
 Ending action Action.
 Ending iteration 8.
 Starting iteration 9.
@@ -273,8 +273,8 @@ Action.c(35): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=hom
 Action.c(35): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
 Action.c(35): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
 Action.c(35): Registered web_reg_find successful for "Text=Welcome to the Web Tours site." (count=1)  	[MsgId: MMSG-26364]
-Action.c(35): web_url("welcome.pl") was successful, 4212 body bytes, 1181 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(45): Notify: Transaction "open_sight" ended with a "Pass" status (Duration: 0.3460 Wasted Time: 0.0305).
+Action.c(35): web_url("welcome.pl") was successful, 4216 body bytes, 1181 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(45): Notify: Transaction "open_sight" ended with a "Pass" status (Duration: 0.3163 Wasted Time: 0.0300).
 Ending action Action.
 Ending iteration 9.
 Starting iteration 10.
@@ -303,8 +303,8 @@ Action.c(35): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=hom
 Action.c(35): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
 Action.c(35): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
 Action.c(35): Registered web_reg_find successful for "Text=Welcome to the Web Tours site." (count=1)  	[MsgId: MMSG-26364]
-Action.c(35): web_url("welcome.pl") was successful, 4212 body bytes, 1181 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(45): Notify: Transaction "open_sight" ended with a "Pass" status (Duration: 0.3127 Wasted Time: 0.0321).
+Action.c(35): web_url("welcome.pl") was successful, 4216 body bytes, 1181 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(45): Notify: Transaction "open_sight" ended with a "Pass" status (Duration: 0.3137 Wasted Time: 0.0332).
 Ending action Action.
 Ending iteration 10.
 Ending Vuser...

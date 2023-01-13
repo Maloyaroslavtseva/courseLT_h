@@ -1,2 +1,2 @@
-"outboundFlight=%7BoutboundFlight%7D&returnFlight=592%3B436%3B01%2F28%2F2023&numPassengers=3&ad"
-"vanceDiscount=0&seatType=Coach&seatPref=Window&reserveFlights.x=43&reserveFlights.y=7"
+"outboundFlight=%7BoutboundFlight%7D&returnFlight=260%3B1099%3B02%2F06%2F2023&numPassengers=1&a"
+"dvanceDiscount=0&seatType=First&seatPref=None&reserveFlights.x=43&reserveFlights.y=7"

@@ -23,6 +23,8 @@ Action()
 	idep,           // индекс города отправления
 	iarr;           // индекс грода прибытия
 	
+	lr_start_transaction("UC2_BuyTicket");
+	
 	backDays = rand()%30 + 1;  
 	inDays = rand()%30;
 	signBack = rand()%2; 
@@ -400,7 +402,9 @@ Action()
 	
 
 	lr_end_transaction("payment",LR_AUTO);
-
 	
+	lr_end_transaction("UC2_BuyTicket",LR_AUTO);
+
+		
 	return 0;
 }

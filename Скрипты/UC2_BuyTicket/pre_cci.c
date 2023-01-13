@@ -2605,8 +2605,6 @@ vuser_init()
 # 1 "Action.c" 1
 Action()
 {
-
-
 	int cities_size = 10;  
 	
 	 
@@ -2629,6 +2627,8 @@ Action()
 	numPassengers,    
 	idep,            
 	iarr;            
+	
+	lr_start_transaction("UC2_BuyTicket");
 	
 	backDays = rand()%30 + 1;  
 	inDays = rand()%30;
@@ -3007,8 +3007,10 @@ Action()
 	
 
 	lr_end_transaction("payment",2);
-
 	
+	lr_end_transaction("UC2_BuyTicket",2);
+
+		
 	return 0;
 }
 # 5 "c:\\users\\edwpo\\courselt\\\361\352\360\350\357\362\373\\uc2_buyticket\\\\combined_UC2_BuyTicket.c" 2

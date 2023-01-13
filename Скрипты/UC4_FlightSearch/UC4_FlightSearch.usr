@@ -52,13 +52,14 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="open_sight__*delimiter*__login__*delimiter*__flights__*delimiter*__find_flights"
+Order="UC4_FlightSeach__*delimiter*__open_sight__*delimiter*__login__*delimiter*__flights__*delimiter*__find_flights"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
 LastReplayedRunName=result1
 ActiveRunName=result1
 [Transactions]
+UC4_FlightSeach=
 open_sight=
 login=
 flights=

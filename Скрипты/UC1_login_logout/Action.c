@@ -1,5 +1,8 @@
 Action()
 {
+	
+	lr_start_transaction("UC1_login_Logout");
+	
 	lr_start_transaction("open_sight");
 	
 	web_reg_find("Fail=NotFound",
@@ -122,6 +125,8 @@ Action()
 		LAST);
 
 	lr_end_transaction("logout",LR_AUTO);
+	
+	lr_end_transaction("UC1_login_Logout",LR_AUTO);
 
 	return 0;
 }
