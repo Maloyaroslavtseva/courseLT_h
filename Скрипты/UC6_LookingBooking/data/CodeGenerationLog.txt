@@ -1,0 +1,2529 @@
+****** Start Log Message ******
+Web Recorder version : 2021.0.0.430 
+Recording Mode: HTML-based script
+Recording headers not in list:
+	accept
+	accept-charset
+	accept-encoding
+	accept-language
+	accept-ranges
+	age
+	allow
+	cache-control
+	content-base
+	content-disposition
+	content-encoding
+	content-language
+	content-location
+	content-md5
+	content-range
+	content-type
+	date
+	etag
+	expires
+	from
+	if-modified-since
+	if-match
+	if-none-match
+	if-range
+	if-unmodified-since
+	location
+	last-modified
+	max-forwards
+	pragma
+	public
+	range
+	retry-after
+	server
+	transfer-encoding
+	upgrade
+	user-agent
+	vary
+	via
+	warning
+	method
+	path
+	scheme
+Not excluding content types
+Do not record this content types as a resource:
+	text/html
+	text/xml
+	application/json
+Reset context between actions
+Do not record non-HTML elements
+Protocol Type: Multi-QTWeb
+
+$$$$$$ End Log Message $$$$$$
+
+Code generation version: 2021.0.0.430
+
+****** Analyze segments filter initialization ******
+****** Request Header For Transaction With Id 21 ******
+GET /WebTours/ HTTP/1.1
+Host: localhost:1080
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="99", "Google Chrome";v="109", "Chromium";v="109"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+If-None-Match: "700000000cc7d-16e-5f1782dd44aba"
+If-Modified-Since: Wed, 04 Jan 2023 23:02:30 GMT
+
+
+$$$$$$ Request Header For Transaction With Id 21 Ended $$$$$$
+
+****** Response Header For Transaction With Id 21 ******
+HTTP/1.1 304 Not Modified
+Date: Fri, 13 Jan 2023 11:46:04 GMT
+Server: Apache/2.2.21 (Win32)
+Connection: Keep-Alive
+Keep-Alive: timeout=5, max=100
+ETag: "700000000cc7d-16e-5f1782dd44aba"
+
+
+$$$$$$ Response Header For Transaction With Id 21 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 27 ******
+GET /WebTours/header.html HTTP/1.1
+Host: localhost:1080
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="99", "Google Chrome";v="109", "Chromium";v="109"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: frame
+Referer: http://localhost:1080/WebTours/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+If-None-Match: "1f00000000cc72-2c6-5f1782dd39391"
+If-Modified-Since: Wed, 04 Jan 2023 23:02:30 GMT
+
+
+$$$$$$ Request Header For Transaction With Id 27 Ended $$$$$$
+
+****** Response Header For Transaction With Id 27 ******
+HTTP/1.1 304 Not Modified
+Date: Fri, 13 Jan 2023 11:46:05 GMT
+Server: Apache/2.2.21 (Win32)
+Connection: Keep-Alive
+Keep-Alive: timeout=5, max=99
+ETag: "1f00000000cc72-2c6-5f1782dd39391"
+
+
+$$$$$$ Response Header For Transaction With Id 27 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 29 ******
+GET /cgi-bin/welcome.pl?signOff=true HTTP/1.1
+Host: localhost:1080
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="99", "Google Chrome";v="109", "Chromium";v="109"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: frame
+Referer: http://localhost:1080/WebTours/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+
+
+$$$$$$ Request Header For Transaction With Id 29 Ended $$$$$$
+
+****** Response Header For Transaction With Id 29 ******
+HTTP/1.1 200 OK
+Date: Fri, 13 Jan 2023 11:46:05 GMT
+Server: Apache/2.2.21 (Win32)
+Set-Cookie: MSO=SID&1673610365; path=/
+Set-Cookie: MTUserInfo=; path=/; expires=Thu, 12-Jan-2023 11:46:05 GMT
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 29 Ended $$$$$$
+
+****** Response Body For Transaction With Id 29 ******
+<!-- 
+ A Session ID has been created and loaded into a cookie called MSO.
+ Also, the server options have been loaded into the cookie called
+ MSO as well.  The server options can be set via the Admin page.
+ --->
+
+<html>
+<title>Web Tours</title>
+   <!-- Frame Set -->
+   <frameset cols="160,*" border="1" frameborder="1">
+      <!-- Navigation Frame -->
+      <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+      <!-- Home Frame -->
+      <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+   </frameset>
+</html>
+
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 29 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Start Log Message ******
+Set SSL version to 'AUTO'
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 29 ****** (Location Flag : tFlagInsertEnd, Location ID : 29)
+	web_url("welcome.pl",
+		"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=true",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=http://localhost:1080/WebTours/",
+		"Snapshot=t1.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 29 Ended $$$$$$
+
+****** Request Header For Transaction With Id 35 ******
+GET /WebTours/home.html HTTP/1.1
+Host: localhost:1080
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="99", "Google Chrome";v="109", "Chromium";v="109"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: frame
+Referer: http://localhost:1080/cgi-bin/welcome.pl?signOff=true
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: MSO=SID&1673610365
+If-None-Match: "2500000000cc77-551-5f1782dd3d09a"
+If-Modified-Since: Wed, 04 Jan 2023 23:02:30 GMT
+
+
+$$$$$$ Request Header For Transaction With Id 35 Ended $$$$$$
+
+****** Response Header For Transaction With Id 35 ******
+HTTP/1.1 304 Not Modified
+Date: Fri, 13 Jan 2023 11:46:05 GMT
+Server: Apache/2.2.21 (Win32)
+Connection: Keep-Alive
+Keep-Alive: timeout=5, max=98
+ETag: "2500000000cc77-551-5f1782dd3d09a"
+
+
+$$$$$$ Response Header For Transaction With Id 35 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/cgi-bin/welcome.pl?signOff=true
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 37 ******
+GET /cgi-bin/nav.pl?in=home HTTP/1.1
+Host: localhost:1080
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="99", "Google Chrome";v="109", "Chromium";v="109"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: frame
+Referer: http://localhost:1080/cgi-bin/welcome.pl?signOff=true
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: MSO=SID&1673610365
+
+
+$$$$$$ Request Header For Transaction With Id 37 Ended $$$$$$
+
+****** Response Header For Transaction With Id 37 ******
+HTTP/1.1 200 OK
+Date: Fri, 13 Jan 2023 11:46:05 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Thu, 12 Jan 2023 11:46:05 GMT
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 37 Ended $$$$$$
+
+****** Response Body For Transaction With Id 37 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>
+blockquote {font-family: tahoma; font-size : 10pt}
+H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+H3 {font-family: tahoma; font-size : 10pt; color: black}
+small {font-family: tahoma; font-size : 8pt}
+</style>
+<form method="post" action="/cgi-bin/login.pl" target="body">
+<input type="hidden" name="userSession" value="135569.895909275zQHDDHzpfcAiDDDDtVitApcfQVcf"/>
+<table border="0"><tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Username</small></td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Password</small></td>
+<tr><td>&nbsp;</td>
+<td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="image" name="login" value="Login" alt="Login" border="1" 
+src="/WebTours/images/mer_login.gif"/></td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table><input type="hidden" name="JSFormSubmit" value="off"/>
+</form>
+
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 37 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/cgi-bin/welcome.pl?signOff=true
+	The Node is NULL
+	/WebTours/home.html
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 40 ******
+GET /favicon.ico HTTP/1.1
+Host: localhost:1080
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="99", "Google Chrome";v="109", "Chromium";v="109"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:1080/WebTours/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: MSO=SID&1673610365
+
+
+$$$$$$ Request Header For Transaction With Id 40 Ended $$$$$$
+
+****** Response Header For Transaction With Id 40 ******
+HTTP/1.1 404 Not Found
+Date: Fri, 13 Jan 2023 11:46:05 GMT
+Server: Apache/2.2.21 (Win32)
+Content-Length: 209
+Keep-Alive: timeout=5, max=98
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 40 Ended $$$$$$
+
+****** Response Body For Transaction With Id 40 ******
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /favicon.ico was not found on this server.</p>
+</body></html>
+
+$$$$$$ Response Body For Transaction With Id 40 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/cgi-bin/welcome.pl?signOff=true
+	/cgi-bin/nav.pl?in=home
+	Form: name= action=/cgi-bin/login.pl
+	/WebTours/home.html
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+[Traffic Filtering] Filtering clients4.google.com
+****** Request Header For Transaction With Id 51 ******
+POST /ukm HTTP/1.1
+Host: clients4.google.com
+Connection: keep-alive
+Content-Length: 6573
+X-Chrome-UMA-Log-SHA1: BFCD2B35E9C9A633B1ECD80B944940708C3267AA
+X-Chrome-UMA-Log-HMAC-SHA256: OKISyEOcpdL85zwRyiEFEhiq4KRGp5rFEoQ+922FJp0=
+X-Chrome-UMA-ReportingInfo: CAE=
+content-encoding: gzip
+Content-Type: application/vnd.chrome.ukm
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+
+
+$$$$$$ Request Header For Transaction With Id 51 Ended $$$$$$
+
+****** Request Body For Transaction With Id 51 ******
+	v\xB0\xF6\xD4\x840\x06\xE0\x12\xAB\x10\x08\x8E\xEA\xD2\x9D\x06\x12\x10109.0.5414.74-64"\x02ru*\x18
+
+Windows NT\x12
+10.0.190442\xDF\x01
+\x06x86_64\x10\xC2\x7F\x18\x80\x80\xD4\xD9\xD6\xFF\x1F"
+All Series(\x010\x80\x0F8\xB8\x08B\x82\x01\x08\xDE!\x10\x80'\x1A\x0C31.0.15.16942\x14Google Inc. (NVIDIA):VANGLE (NVIDIA, NVIDIA GeForce GTX 750 Ti Direct3D11 vs_5_0 ps_5_0, D3D11-31.0.15.1694)M]z\xCCBUg\xB7\xCCBe\x00\x00\x80?j\x16
+\x0CGenuineIntel\x10\xC3\x8D\x0C\x18\x04 \x00\xAA\x01\x06x86_64\xB0\x01\x01J
+\xE2)\xEC?\x15u\xB2\x11iJ
+\xC0\x1B@\x11\x15u\xB2\x11iJ
+\x06\xBB\xC9I\x15\x97\xF5V\xDDJ
+\x87\xA6k\x15u\xB2\x11iJ
+\xEA\x8D\xB1\x1B\x15u\xB2\x11iJ
+e\x88\xB1\xDC\x15\xACCciJ
+\x96\x96\xD6\xA1\x15u\xB2\x11iJ
+Ax\x9F
+\x15\xBAD\x8E!J
+\xDA\xABs\xBC\x15u\xB2\x11iJ
+\xE50\xA9\xBE\x15w\xF13\xB4J
+:s\x89\x95\x15\x97\xF5V\xDDJ
+\x9EzxH\x15u\xB2\x11iJ
+\xA8\xAC~\x7F\x15kfftJ
+\xAB\xB7\xDEL\x15\xAF\xA3\xC8CJ
+I\x13\xC3\xAD\x15u\xB2\x11iJ
+f\x0E'\x15\x7Fn4\x00J
+^\x9B\x10x\x15\x97\xF5V\xDDJ
+8\xDC\x1B(\x15u\xB2\x11iJ
+\x93\x1D\xE2H\x15u\xB2\x11iJ
+\xB2\xB9\x83\xB1\x15u\xB2\x11iJ
+B\xEC\xB1T\x15\x07K7#J
+\xE9LmP\x153\xF5[\xB7J
+h\x95\xF6\x1B\x15\x97\xF5V\xDDJ
+\xC1\xC1\x1B2\x15u\xB2\x11iJ
+\x18\xEE\xB2\xF5\x15\x07K7#J
+\xE9\xAE4\xAD\x15e\xC0\xDF\xB2J
+r\xFEn\xB7\x15u\xB2\x11iJ
+I1\xA7s\x15u\xB2\x11iJ
+\xE2"\x1C\xD2\x15u\xB2\x11iJ
+7\xB3\x83C\x15\x9Aq9\x87J
+\x02
+\x8Cu\x15u\xB2\x11iJ
+\x1En`\xEE\x15\x85\xA0\x8D\xDEJ
+rpm6\x15u\xB2\x11iJ
+\x04\xA2\x95\xE3\x15\x97\xF5V\xDDJ
+N\x00u\xD0\x15u\xB2\x11iJ
+\xB61\xA8E\x15u\xB2\x11iJ
+\xEB\x9C\x13\x98\x15u\xB2\x11iJ
+\xD9\xE4~`\x15\x11\x0BnnJ
+2XP\xBC\x15\xCD\\m\xC5J
+	\xB0\x99\xBA\x15u\xB2\x11iJ
+'\x91\xAD\xAD\x15u\xB2\x11iJ
+\xF9\x8C\xC4\xE6\x15u\xB2\x11iJ
+n9:^\x15\xD1\x0B\xD2\xEAJ
+\xD6\xBC\xFD\xD1\x15\xDEO\xA8hJ
+\xD0@A\x12\x15\x11\x0BnnJ
+\xAA\x1D\xEC;\x15u\xB2\x11iJ
+\x07gH\xB5\x15\xBF\xEC{\x10J
+4.^'\x15\x03\xE8\xAC\xA2J
+\xBCP#N\x15\x97\xF5V\xDDJ
+8c\xF4\xA1\x15O0\x0F\xFEJ
+n\xF0\xEF7\x15u\xB2\x11iJ
+\xA7t\xD8>\x15u\xB2\x11iJ
+\x86\x05\x18\xAE\x15u\xB2\x11iJ
+\xE8\xDE5\xE2\x15\x9Aq9\x87J
+\xE1=ms\x15u\xB2\x11iJ
+A\x83\x01(\x15u\xB2\x11iJ
+\xB9\xB5\xF4\x82\x15u\xB2\x11iJ
+\xC5\xEEm\xC5\x15u\xB2\x11iJ
+3\xB6dN\x15u\xB2\x11iJ
+-\x86\xB1\xE0\x15\x11\x88hRJ
+3l\x9A$\x15u\xB2\x11i
+$$$$$$ Request Body For Transaction With Id 51 Ended $$$$$$
+
+****** Response Header For Transaction With Id 51 ******
+HTTP/1.1 200 OK
+Content-Type: text/plain; charset=UTF-8
+X-Content-Type-Options: nosniff
+Content-Encoding: gzip
+Date: Fri, 13 Jan 2023 11:46:48 GMT
+Server: uma-collector
+Cache-Control: private
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+Transfer-Encoding: chunked
+
+
+$$$$$$ Response Header For Transaction With Id 51 Ended $$$$$$
+
+****** Response Body For Transaction With Id 51 ******
+OK
+$$$$$$ Response Body For Transaction With Id 51 Ended $$$$$$
+
+[Traffic Filtering] Filtering update.googleapis.com
+****** Request Header For Transaction With Id 56 ******
+POST /service/update2/json?cup2key=12:IWEgA7VR_yUQwgWh8Un5yLPN6dGOHP-8f_pSEEfZ0eA&cup2hreq=ae9bc6016754c580ca296ddf9ca1aabb9d610468480d831e8f7be646c48f848c HTTP/1.1
+Host: update.googleapis.com
+Connection: keep-alive
+Content-Length: 9136
+X-Goog-Update-AppId: neifaoindggfcjicffkgpmnlppeffabd,oimompecagnajdejgnnjijobebaeigek,ihnlcenocehgdaegdmhbidjhnhdchfmm,gcmjkmgdlgnkkcocmoeiminaijmmjnii,obedbbhbpmojnkanicioggnmelmoomoc,lmelglejhemejginpboagddgdfbepgmp,giekcmmlnklenlaomppkphknjmnnpneh,khaoiebndkojlmppeemjhbpbandiljpe,hfnkpimlhhgieaddgfemjhofmfblmnib,llkgjffcdpffmhiakmfcdcblohccpfmo,laoigpblnllgcgjnjnllmfolckpjlhki,gkmgaooipdjhmangpemjhigmamcehddo,ehgidpndbllacpjalkiimkbadgjfnnmc,efniojlnjndmcbiieegkicadnoecjjef,jflookgnkcckhobaglndicnbbgbonegd,ggkkehgbnfjpeggfpleeakpidbkibbmn,jamhcnnkihinmdlkakkaopbjbbcngflc,dhlpobdgcjafebgbbhjdnapejmpkgiie,ojhpjlocmbogdgmfpkhlaaeamibhnphh,imefjhfbkmcmebodilednhmaccmincoa,eeigpngbgcognadeebkilcpcaedhellh,hnimpnehoodheedghdeeijklkeaacbdc,gonpemdgkjcecdgbnaabipppbmgfggbe
+X-Goog-Update-Interactivity: bg
+X-Goog-Update-Updater: chrome-109.0.5414.74
+Content-Type: application/json
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate
+
+
+$$$$$$ Request Header For Transaction With Id 56 Ended $$$$$$
+
+****** Request Body For Transaction With Id 56 ******
+{"request":{"@os":"win","@updater":"chrome","acceptformat":"crx3","app":[{"appid":"neifaoindggfcjicffkgpmnlppeffabd","brand":"CHZO","cohort":"1:1299:","cohorthint":"Windows (102+, canary/dev/beta/stable)","cohortname":"Windows (102+, canary/dev/beta/stable)","enabled":true,"installdate":5840,"lang":"ru","packages":{"package":[{"fp":"1.faef821457e35b44f92e45ae9c7c4424eb39c8f8bd02562a358bd2c5542570b9"}]},"ping":{"ping_freshness":"{a60cad27-a4f1-42a0-8a24-ce754e279188}","rd":5855},"updatecheck":{},"version":"1.0.2512.0"},{"appid":"oimompecagnajdejgnnjijobebaeigek","brand":"CHZO","cohort":"1:1bk9:","cohorthint":"4.10.2557.0 for Chrome 95+","cohortname":"4.10.2557.0 for Chrome 95+","enabled":true,"lang":"ru","ping":{"ping_freshness":"{e7abcc78-1d4f-4450-9914-bd6f806ae061}","rd":5855},"updatecheck":{},"version":"4.10.2557.0"},{"appid":"ihnlcenocehgdaegdmhbidjhnhdchfmm","brand":"CHZO","cohort":"1:15j3:","cohorthint":"Win (Including up-to-date)","cohortname":"Win (Including up-to-date)","enabled":true,"lang":"ru","pa
+$$$$$$ Request Body For Transaction With Id 56 Ended $$$$$$
+
+****** Response Header For Transaction With Id 56 ******
+HTTP/1.1 200 OK
+Content-Security-Policy: script-src 'report-sample' 'nonce-blV4OZbl64hFoC2Ffu9WRA' 'unsafe-inline' 'strict-dynamic' https: http:;object-src 'none';base-uri 'self';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Fri, 13 Jan 2023 11:46:48 GMT
+X-Cup-Server-Proof: 3045022051a841ff9fd3bf27945a2b3fed1d299a6b51b81775726ef4f22761ef512c4934022100c44df6fe5710f998f13bd1cfcad74ceb77306b371b334bec06cba0b205e9e160:ae9bc6016754c580ca296ddf9ca1aabb9d610468480d831e8f7be646c48f848c
+ETag: W/"3045022051a841ff9fd3bf27945a2b3fed1d299a6b51b81775726ef4f22761ef512c4934022100c44df6fe5710f998f13bd1cfcad74ceb77306b371b334bec06cba0b205e9e160:ae9bc6016754c580ca296ddf9ca1aabb9d610468480d831e8f7be646c48f848c"
+Content-Type: application/json; charset=utf-8
+X-Daynum: 5856
+X-Daystart: 13608
+Content-Encoding: gzip
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 1736
+Server: GSE
+
+
+$$$$$$ Response Header For Transaction With Id 56 Ended $$$$$$
+
+****** Response Body For Transaction With Id 56 ******
+)]}'
+{"response":{"server":"prod","protocol":"3.1","daystart":{"elapsed_seconds":13608,"elapsed_days":5856},"app":[{"cohorthint":"Windows (102+, canary/dev/beta/stable)","appid":"neifaoindggfcjicffkgpmnlppeffabd","cohort":"1:1299:","status":"ok","cohortname":"Windows (102+, canary/dev/beta/stable)","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"4.10.2557.0 for Chrome 95+","appid":"oimompecagnajdejgnnjijobebaeigek","cohort":"1:1bk9:","status":"ok","cohortname":"4.10.2557.0 for Chrome 95+","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Win (Including up-to-date)","appid":"ihnlcenocehgdaegdmhbidjhnhdchfmm","cohort":"1:15j3:","status":"ok","cohortname":"Win (Including up-to-date)","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"M54AndUp","appid":"gcmjkmgdlgnkkcocmoeiminaijmmjnii","cohort":"1:bm1:","status":"ok","cohortname":"M54AndUp","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto","appid":"obedbbhbpmojnkanicioggnmelmoomoc","cohort":"1:s6f:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto","appid":"lmelglejhemejginpboagddgdfbepgmp","cohort":"1:lwl:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto","appid":"giekcmmlnklenlaomppkphknjmnnpneh","cohort":"1:j5l:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto","appid":"khaoiebndkojlmppeemjhbpbandiljpe","cohort":"1:cux:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto","appid":"hfnkpimlhhgieaddgfemjhofmfblmnib","cohort":"1:jcl:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"ok","urls":{"url":[{"codebase":"http://edgedl.me.gvt1.com/edgedl/release2/chrome_component/addhkqhzvb3rpu6wzgqbi3mtvxgq_7817/"},{"codebase":"https://edgedl.me.gvt1.com/edgedl/release2/chrome_component/addhkqhzvb3rpu6wzgqbi3mtvxgq_7817/"},{"codebase":"http://dl.google.com/release2/chrome_component/addhkqhzvb3rpu6wzgqbi3mtvxgq_7817/"},{"codebase":"https://dl.google.com/release2/chrome_component/addhkqhzvb3rpu6wzgqbi3mtvxgq_7817/"},{"codebase":"http://www.google.com/dl/release2/chrome_component/addhkqhzvb3rpu6wzgqbi3mtvxgq_7817/"},{"codebase":"https://www.google.com/dl/release2/chrome_component/addhkqhzvb3rpu6wzgqbi3mtvxgq_7817/"}]},"manifest":{"version":"7817","packages":{"package":[{"hash_sha256":"531d458603de4e85d5678ebda8ecc209296e87135b23ba2147f070aa5137c647","size":25280,"name":"hfnkpimlhhgieaddgfemjhofmfblmnib_7817_all_adslbr5s734jcguvfapw6jxzytaa.crx3","fp":"1.531d458603de4e85d5678ebda8ecc209296e87135b23ba2147f070aa5137c647","required":true,"hash":"zAqj5OetCG+eXymt6wIrE1WURFg\u003d"}]}}}},{"appid":"llkgjffcdpffmhiakmfcdcblohccpfmo","cohort":"1::","status":"ok","cohortname":"","ping":{"status":"ok"},"updatecheck":{"_esbAllowlist":"true","status":"noupdate"}},{"cohorthint":"Auto","appid":"laoigpblnllgcgjnjnllmfolckpjlhki","cohort":"1:10zr:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Stable","appid":"gkmgaooipdjhmangpemjhigmamcehddo","cohort":"1:pw3:","status":"ok","cohortname":"Stable","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"stable64","appid":"ehgidpndbllacpjalkiimkbadgjfnnmc","cohort":"1:ofl:","status":"ok","cohortname":"stable64","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto Stage3","appid":"efniojlnjndmcbiieegkicadnoecjjef","cohort":"1:18ql:","status":"ok","cohortname":"Auto Stage3","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto","appid":"jflookgnkcckhobaglndicnbbgbonegd","cohort":"1:s7x:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"ok","urls":{"url":[{"codebase":"http://edgedl.me.gvt1.com/edgedl/release2/chrome_component/jtm7hrp25fnad5ajqmgrfyk3ie_2907/"},{"codebase":"https://edgedl.me.gvt1.com/edgedl/release2/chrome_component/jtm7hrp25fnad5ajqmgrfyk3ie_2907/"},{"codebase":"http://dl.google.com/release2/chrome_component/jtm7hrp25fnad5ajqmgrfyk3ie_2907/"},{"codebase":"https://dl.google.com/release2/chrome_component/jtm7hrp25fnad5ajqmgrfyk3ie_2907/"},{"codebase":"http://www.google.com/dl/release2/chrome_component/jtm7hrp25fnad5ajqmgrfyk3ie_2907/"},{"codebase":"https://www.google.com/dl/release2/chrome_component/jtm7hrp25fnad5ajqmgrfyk3ie_2907/"}]},"manifest":{"version":"2907","packages":{"package":[{"hash_sha256":"94874556cb80ee11df66a2f7071da3e8eacd2a4e377b82c7ca34c940a4badc3f","size":52730,"name":"jflookgnkcckhobaglndicnbbgbonegd_2907_all_myjduu3ih6hebywybwlizzgcb4.crx3","fp":"1.94874556cb80ee11df66a2f7071da3e8eacd2a4e377b82c7ca34c940a4badc3f","required":true,"hash":"ip9lAJwOPeR5ljcI3RTuPAJOFIU\u003d"}]}}}},{"cohorthint":"108-and-above-all-users","appid":"ggkkehgbnfjpeggfpleeakpidbkibbmn","cohort":"1:ut9/1a0f:","status":"ok","cohortname":"108-and-above-all-users","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto","appid":"jamhcnnkihinmdlkakkaopbjbbcngflc","cohort":"1:wvr:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"ok","urls":{"url":[{"codebase":"http://edgedl.me.gvt1.com/edgedl/release2/chrome_component/acljiwkhurl7eyqu4xtgzjoj3t4q_111.0.5536.0/"},{"codebase":"https://edgedl.me.gvt1.com/edgedl/release2/chrome_component/acljiwkhurl7eyqu4xtgzjoj3t4q_111.0.5536.0/"},{"codebase":"http://dl.google.com/release2/chrome_component/acljiwkhurl7eyqu4xtgzjoj3t4q_111.0.5536.0/"},{"codebase":"https://dl.google.com/release2/chrome_component/acljiwkhurl7eyqu4xtgzjoj3t4q_111.0.5536.0/"},{"codebase":"http://www.google.com/dl/release2/chrome_component/acljiwkhurl7eyqu4xtgzjoj3t4q_111.0.5536.0/"},{"codebase":"https://www.google.com/dl/release2/chrome_component/acljiwkhurl7eyqu4xtgzjoj3t4q_111.0.5536.0/"}]},"manifest":{"version":"111.0.5536.0","packages":{"package":[{"hash_sha256":"9ac54b20ec930179c2b7d3843f9a6f8d4e87af9931434315cc85a6812e3a4998","size":818331,"name":"jamhcnnkihinmdlkakkaopbjbbcngflc_111.0.5536.0_all_adwlukhwh2wnrmrdot73hvhniyca.crx3","fp":"1.9ac54b20ec930179c2b7d3843f9a6f8d4e87af9931434315cc85a6812e3a4998","required":true,"hash":"4ivbhCDa2Fti/G+AfpnjNjcmJ2Y\u003d"}]}}}},{"cohorthint":"Auto","appid":"dhlpobdgcjafebgbbhjdnapejmpkgiie","cohort":"1:z9x:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto","appid":"ojhpjlocmbogdgmfpkhlaaeamibhnphh","cohort":"1:w0x:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"desktop_1_flatbuffer","appid":"imefjhfbkmcmebodilednhmaccmincoa","cohort":"1:17lx:","status":"ok","cohortname":"desktop_1_flatbuffer","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto","appid":"eeigpngbgcognadeebkilcpcaedhellh","cohort":"1:w59:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"appid":"hnimpnehoodheedghdeeijklkeaacbdc","cohort":"1::","status":"ok","cohortname":"","ping":{"status":"ok"},"updatecheck":{"_esbAllowlist":"true","status":"noupdate"}},{"cohorthint":"General release","appid":"gonpemdgkjcecdgbnaabipppbmgfggbe","cohort":"1:z1x:","status":"ok","cohortname":"General release","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}}]}}
+$$$$$$ Response Body For Transaction With Id 56 Ended $$$$$$
+
+[Traffic Filtering] Filtering clients4.google.com
+****** Request Header For Transaction With Id 59 ******
+POST /ukm HTTP/1.1
+Host: clients4.google.com
+Connection: keep-alive
+Content-Length: 10805
+X-Chrome-UMA-Log-SHA1: 4CD4D748DE6AD6A239CC7832F46EE0D0E4FC7DFA
+X-Chrome-UMA-Log-HMAC-SHA256: B4xGnBHgpu+dwDyP4tzHRGfg/AQquLtQVi4019894+c=
+X-Chrome-UMA-ReportingInfo: CAEQyAEYACAB
+content-encoding: gzip
+Content-Type: application/vnd.chrome.ukm
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+
+
+$$$$$$ Request Header For Transaction With Id 59 Ended $$$$$$
+
+****** Request Body For Transaction With Id 59 ******
+	v\xB0\xF6\xD4\x840\x06\xE0\x12\xDB\x10\x08\x8E\xEA\xD2\x9D\x06\x12\x10109.0.5414.74-64"\x02ru*\x18
+
+Windows NT\x12
+10.0.190442\xDF\x01
+\x06x86_64\x10\xC2\x7F\x18\x80\x80\xDC\xCD\xD6\xFF\x1F"
+All Series(\x010\x80\x0F8\xB8\x08B\x82\x01\x08\xDE!\x10\x80'\x1A\x0C31.0.15.16942\x14Google Inc. (NVIDIA):VANGLE (NVIDIA, NVIDIA GeForce GTX 750 Ti Direct3D11 vs_5_0 ps_5_0, D3D11-31.0.15.1694)M]z\xCCBUg\xB7\xCCBe\x00\x00\x80?j\x16
+\x0CGenuineIntel\x10\xC3\x8D\x0C\x18\x04 \x00\xAA\x01\x06x86_64\xB0\x01\x01J
+\xE2)\xEC?\x15u\xB2\x11iJ
+\xC0\x1B@\x11\x15u\xB2\x11iJ
+\x06\xBB\xC9I\x15\x97\xF5V\xDDJ
+\x08\x1F]\x95\x15u\xB2\x11iJ
+\x87\xA6k\x15u\xB2\x11iJ
+\xEA\x8D\xB1\x1B\x15u\xB2\x11iJ
+e\x88\xB1\xDC\x15\xACCciJ
+\x96\x96\xD6\xA1\x15u\xB2\x11iJ
+Ax\x9F
+\x15\xBAD\x8E!J
+\xDA\xABs\xBC\x15u\xB2\x11iJ
+f\xD5\xEE\x7F\x15u\xB2\x11iJ
+\xE50\xA9\xBE\x15w\xF13\xB4J
+:s\x89\x95\x15\x97\xF5V\xDDJ
+:\x0B\xA9U\x15u\xB2\x11iJ
+\x9EzxH\x15u\xB2\x11iJ
+\xA8\xAC~\x7F\x15kfftJ
+\xAB\xB7\xDEL\x15\xAF\xA3\xC8CJ
+I\x13\xC3\xAD\x15u\xB2\x11iJ
+f\x0E'\x15\x7Fn4\x00J
+^\x9B\x10x\x15\x97\xF5V\xDDJ
+8\xDC\x1B(\x15u\xB2\x11iJ
+\x93\x1D\xE2H\x15u\xB2\x11iJ
+\xB2\xB9\x83\xB1\x15u\xB2\x11iJ
+B\xEC\xB1T\x15\x07K7#J
+\xE9LmP\x153\xF5[\xB7J
+h\x95\xF6\x1B\x15\x97\xF5V\xDDJ
+\xC1\xC1\x1B2\x15u\xB2\x11iJ
+\x18\xEE\xB2\xF5\x15\x07K7#J
+\xE9\xAE4\xAD\x15e\xC0\xDF\xB2J
+r\xFEn\xB7\x15u\xB2\x11iJ
+I1\xA7s\x15u\xB2\x11iJ
+\xE2"\x1C\xD2\x15u\xB2\x11iJ
+7\xB3\x83C\x15\x9Aq9\x87J
+\x02
+\x8Cu\x15u\xB2\x11iJ
+\x1En`\xEE\x15\x85\xA0\x8D\xDEJ
+rpm6\x15u\xB2\x11iJ
+\x04\xA2\x95\xE3\x15\x97\xF5V\xDDJ
+N\x00u\xD0\x15u\xB2\x11iJ
+\xB61\xA8E\x15u\xB2\x11iJ
+\xEB\x9C\x13\x98\x15u\xB2\x11iJ
+\xD9\xE4~`\x15\x11\x0BnnJ
+2XP\xBC\x15\xCD\\m\xC5J
+'\x91\xAD\xAD\x15u\xB2\x11iJ
+\xF9\x8C\xC4\xE6\x15u\xB2\x11iJ
+n9:^\x15\xD1\x0B\xD2\xEAJ
+\xD6\xBC\xFD\xD1\x15\xDEO\xA8hJ
+\xD0@A\x12\x15\x11\x0BnnJ
+\xAA\x1D\xEC;\x15u\xB2\x11iJ
+\x07gH\xB5\x15\xBF\xEC{\x10J
+4.^'\x15\x03\xE8\xAC\xA2J
+\xBCP#N\x15\x97\xF5V\xDDJ
+8c\xF4\xA1\x15O0\x0F\xFEJ
+n\xF0\xEF7\x15u\xB2\x11iJ
+\xA7t\xD8>\x15u\xB2\x11iJ
+\x86\x05\x18\xAE\x15u\xB2\x11iJ
+\xE8\xDE5\xE2\x15\x9Aq9\x87J
+\xE1=ms\x15u\xB2\x11iJ
+A\x83\x01(\x15u\xB2\x11iJ
+\xB9\xB5\xF4\x82\x15u\xB2\x11iJ
+\xC5\xEEm\xC5\x15u\xB2\x11iJ
+3\xB6dN\x15u\xB2\x11i
+$$$$$$ Request Body For Transaction With Id 59 Ended $$$$$$
+
+****** Response Header For Transaction With Id 59 ******
+HTTP/1.1 200 OK
+Content-Type: text/plain; charset=UTF-8
+X-Content-Type-Options: nosniff
+Content-Encoding: gzip
+Date: Fri, 13 Jan 2023 11:46:51 GMT
+Server: uma-collector
+Cache-Control: private
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+Transfer-Encoding: chunked
+
+
+$$$$$$ Response Header For Transaction With Id 59 Ended $$$$$$
+
+****** Response Body For Transaction With Id 59 ******
+OK
+$$$$$$ Response Body For Transaction With Id 59 Ended $$$$$$
+
+****** Request Header For Transaction With Id 66 ******
+POST /cgi-bin/login.pl HTTP/1.1
+Host: localhost:1080
+Connection: keep-alive
+Content-Length: 123
+Cache-Control: max-age=0
+sec-ch-ua: "Not_A Brand";v="99", "Google Chrome";v="109", "Chromium";v="109"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+Origin: http://localhost:1080
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: frame
+Referer: http://localhost:1080/cgi-bin/nav.pl?in=home
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: MSO=SID&1673610365
+
+
+$$$$$$ Request Header For Transaction With Id 66 Ended $$$$$$
+
+****** Request Body For Transaction With Id 66 ******
+userSession=135569.895909275zQHDDHzpfcAiDDDDtVitApcfQVcf&username=jojo&password=bean&login.x=56&login.y=15&JSFormSubmit=off
+$$$$$$ Request Body For Transaction With Id 66 Ended $$$$$$
+
+****** Response Header For Transaction With Id 66 ******
+HTTP/1.1 200 OK
+Date: Fri, 13 Jan 2023 11:47:03 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: 5s
+Set-Cookie: MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&lastName&Bean%0A&address1&&creditCard&&expDate&%0A; path=/
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 66 Ended $$$$$$
+
+****** Response Body For Transaction With Id 66 ******
+<!--
+User password was correct - added a cookie with the user's default
+information.  Set the user up to make reservations...
+
+--->
+
+<html>
+<title>Web Tours</title>
+<frameset cols="160,*" border=1 frameborder=1>
+<frame src="nav.pl?page=menu&in=home" name="navbar" marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>
+<frame src="login.pl?intro=true" name="info" marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>
+</frameset>
+
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 66 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/cgi-bin/welcome.pl?signOff=true
+	/cgi-bin/nav.pl?in=home
+	Form: name= action=/cgi-bin/login.pl
+	/WebTours/home.html
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 66 ****** (Location Flag : tFlagInsertEnd, Location ID : 66)
+	web_submit_form("login.pl",
+		"Snapshot=t2.inf",
+		ITEMDATA,
+		"Name=username", "Value=jojo", ENDITEM,
+		"Name=password", "Value=bean", ENDITEM,
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 66 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 29)
+	web_add_auto_header("Sec-Fetch-Dest",
+		"frame");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 29)
+	web_add_auto_header("Sec-Fetch-Mode",
+		"navigate");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 29)
+	web_add_auto_header("Sec-Fetch-Site",
+		"same-origin");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 29)
+	web_add_auto_header("Upgrade-Insecure-Requests",
+		"1");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 29)
+	web_add_auto_header("sec-ch-ua",
+		"\"Not_A Brand\";v=\"99\", \"Google Chrome\";v=\"109\", \"Chromium\";v=\"109\"");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 29)
+	web_add_auto_header("sec-ch-ua-mobile",
+		"?0");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 29)
+	web_add_auto_header("sec-ch-ua-platform",
+		"\"Windows\"");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Request Header For Transaction With Id 69 ******
+GET /cgi-bin/login.pl?intro=true HTTP/1.1
+Host: localhost:1080
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="99", "Google Chrome";v="109", "Chromium";v="109"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: frame
+Referer: http://localhost:1080/cgi-bin/login.pl
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: MSO=SID&1673610365; MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&lastName&Bean%0A&address1&&creditCard&&expDate&%0A
+
+
+$$$$$$ Request Header For Transaction With Id 69 Ended $$$$$$
+
+****** Response Header For Transaction With Id 69 ******
+HTTP/1.1 200 OK
+Date: Fri, 13 Jan 2023 11:47:03 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: 5s
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 69 Ended $$$$$$
+
+****** Response Body For Transaction With Id 69 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Welcome to Web Tours</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<p /><style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black}</style><BR/><BR/><BR/><BR/><BR/><blockquote>Welcome, <b>jojo</b>, to the Web Tours reservation pages.<BR/>Using the menu to the left, you can search for new flights to book, 
+or review/edit the flights already booked.  Don't forget to sign off when
+you're done!
+</blockquote>
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 69 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/cgi-bin/welcome.pl?signOff=true
+		/cgi-bin/nav.pl?in=home
+		Form: name= action=/cgi-bin/login.pl
+		/WebTours/home.html
+	/cgi-bin/login.pl
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 72 ******
+GET /cgi-bin/nav.pl?page=menu&in=home HTTP/1.1
+Host: localhost:1080
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="99", "Google Chrome";v="109", "Chromium";v="109"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: frame
+Referer: http://localhost:1080/cgi-bin/login.pl
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: MSO=SID&1673610365; MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&lastName&Bean%0A&address1&&creditCard&&expDate&%0A
+
+
+$$$$$$ Request Header For Transaction With Id 72 Ended $$$$$$
+
+****** Response Header For Transaction With Id 72 ******
+HTTP/1.1 200 OK
+Date: Fri, 13 Jan 2023 11:47:04 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Thu, 12 Jan 2023 11:47:04 GMT
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 72 Ended $$$$$$
+
+****** Response Body For Transaction With Id 72 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+
+<style>
+	blockquote {font-family: tahoma; font-size : 10pt}
+	H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+	small {font-family: tahoma; font-size : 8pt}
+	H3{font-family: tahoma; font-size : 10pt; color: black}
+	A {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATION: none}
+	A:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DECORATION: underline}
+	TD {font-family: tahoma; font-size : 10pt; color: black}
+</style>
+
+<BR><BR><center>
+
+<br clear="both"/><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/flights.gif" 
+ALT="Search Flights Button"/></A>
+<br clear="both"/><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/itinerary.gif" 
+ALT="Itinerary Button"/></A>
+<br clear="both"/><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/in_home.gif" 
+ALT="Home Button"/></A>
+<br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/signoff.gif" 
+ALT="SignOff Button"/></A></center>
+
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 72 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/cgi-bin/welcome.pl?signOff=true
+		/cgi-bin/nav.pl?in=home
+		Form: name= action=/cgi-bin/login.pl
+		/WebTours/home.html
+	/cgi-bin/login.pl
+		The Node is NULL
+		/cgi-bin/login.pl?intro=true
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+[Traffic Filtering] Filtering update.googleapis.com
+****** Request Header For Transaction With Id 79 ******
+POST /service/update2/json HTTP/1.1
+Host: update.googleapis.com
+Connection: keep-alive
+Content-Length: 1371
+Content-Type: application/json
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate
+
+
+$$$$$$ Request Header For Transaction With Id 79 Ended $$$$$$
+
+****** Request Body For Transaction With Id 79 ******
+{"request":{"@os":"win","@updater":"chrome","acceptformat":"crx3","app":[{"appid":"hfnkpimlhhgieaddgfemjhofmfblmnib","brand":"CHZO","cohort":"1:jcl:","cohorthint":"Auto","cohortname":"Auto","enabled":true,"event":[{"download_time_ms":24340,"downloaded":25280,"downloader":"bits","eventresult":1,"eventtype":14,"nextversion":"7817","previousversion":"7816","total":25280,"url":"http://edgedl.me.gvt1.com/edgedl/release2/chrome_component/addhkqhzvb3rpu6wzgqbi3mtvxgq_7817/hfnkpimlhhgieaddgfemjhofmfblmnib_7817_all_adslbr5s734jcguvfapw6jxzytaa.crx3"},{"eventresult":1,"eventtype":3,"nextfp":"1.531d458603de4e85d5678ebda8ecc209296e87135b23ba2147f070aa5137c647","nextversion":"7817","previousfp":"1.3e32f6d5a13b361e6663f1bc9be5f506068c89cc2825a622c56484283ab034e8","previousversion":"7816"}],"lang":"ru","packages":{"package":[{"fp":"1.531d458603de4e85d5678ebda8ecc209296e87135b23ba2147f070aa5137c647"}]},"version":"7817"}],"arch":"x64","dedup":"cr","domainjoined":false,"hw":{"avx":true,"physmemory":16,"sse":true,"sse2":true,"s
+$$$$$$ Request Body For Transaction With Id 79 Ended $$$$$$
+
+****** Response Header For Transaction With Id 79 ******
+HTTP/1.1 200 OK
+Content-Security-Policy: script-src 'report-sample' 'nonce-ww2IcC9oJL_t7z_z9wRzcg' 'unsafe-inline' 'strict-dynamic' https: http:;object-src 'none';base-uri 'self';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Fri, 13 Jan 2023 11:47:13 GMT
+Content-Type: application/json; charset=utf-8
+X-Daynum: 5856
+X-Daystart: 13633
+Content-Encoding: gzip
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 185
+Server: GSE
+
+
+$$$$$$ Response Header For Transaction With Id 79 Ended $$$$$$
+
+****** Response Body For Transaction With Id 79 ******
+)]}'
+{"response":{"server":"prod","protocol":"3.1","daystart":{"elapsed_seconds":13633,"elapsed_days":5856},"app":[{"cohorthint":"Auto","appid":"hfnkpimlhhgieaddgfemjhofmfblmnib","status":"ok","event":[{"status":"ok"},{"status":"ok"}]}]}}
+$$$$$$ Response Body For Transaction With Id 79 Ended $$$$$$
+
+[Traffic Filtering] Filtering update.googleapis.com
+****** Request Header For Transaction With Id 88 ******
+POST /service/update2/json HTTP/1.1
+Host: update.googleapis.com
+Connection: keep-alive
+Content-Length: 1366
+Content-Type: application/json
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate
+
+
+$$$$$$ Request Header For Transaction With Id 88 Ended $$$$$$
+
+****** Request Body For Transaction With Id 88 ******
+{"request":{"@os":"win","@updater":"chrome","acceptformat":"crx3","app":[{"appid":"jflookgnkcckhobaglndicnbbgbonegd","brand":"CHZO","cohort":"1:s7x:","cohorthint":"Auto","cohortname":"Auto","enabled":true,"event":[{"download_time_ms":4033,"downloaded":52730,"downloader":"bits","eventresult":1,"eventtype":14,"nextversion":"2907","previousversion":"2906","total":52730,"url":"http://edgedl.me.gvt1.com/edgedl/release2/chrome_component/jtm7hrp25fnad5ajqmgrfyk3ie_2907/jflookgnkcckhobaglndicnbbgbonegd_2907_all_myjduu3ih6hebywybwlizzgcb4.crx3"},{"eventresult":1,"eventtype":3,"nextfp":"1.94874556cb80ee11df66a2f7071da3e8eacd2a4e377b82c7ca34c940a4badc3f","nextversion":"2907","previousfp":"1.247c7f109f2aa4063e04be207db7b417161d17a22ade93b46ed717973e49cf16","previousversion":"2906"}],"lang":"ru","packages":{"package":[{"fp":"1.94874556cb80ee11df66a2f7071da3e8eacd2a4e377b82c7ca34c940a4badc3f"}]},"version":"2907"}],"arch":"x64","dedup":"cr","domainjoined":false,"hw":{"avx":true,"physmemory":16,"sse":true,"sse2":true,"sse3":
+$$$$$$ Request Body For Transaction With Id 88 Ended $$$$$$
+
+****** Response Header For Transaction With Id 88 ******
+HTTP/1.1 200 OK
+Content-Security-Policy: script-src 'report-sample' 'nonce-p7TcWEG276pb0AA2T34fCw' 'unsafe-inline' 'strict-dynamic' https: http:;object-src 'none';base-uri 'self';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Fri, 13 Jan 2023 11:47:18 GMT
+Content-Type: application/json; charset=utf-8
+X-Daynum: 5856
+X-Daystart: 13638
+Content-Encoding: gzip
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 184
+Server: GSE
+
+
+$$$$$$ Response Header For Transaction With Id 88 Ended $$$$$$
+
+****** Response Body For Transaction With Id 88 ******
+)]}'
+{"response":{"server":"prod","protocol":"3.1","daystart":{"elapsed_seconds":13638,"elapsed_days":5856},"app":[{"cohorthint":"Auto","appid":"jflookgnkcckhobaglndicnbbgbonegd","status":"ok","event":[{"status":"ok"},{"status":"ok"}]}]}}
+$$$$$$ Response Body For Transaction With Id 88 Ended $$$$$$
+
+[Traffic Filtering] Filtering clients1.google.com
+****** Request Header For Transaction With Id 90 ******
+GET /tools/pso/ping?as=chrome&brand=CHZO&pid=&hl=ru&events=C1S&rep=2&rlz=C1:1C1CHZO_ruRU1017RU1017,C2:1C2CHZO_ruRU1017,C7:1C7CHZO_ruRU1017&id=409A8CAB995444B3720A9358EF56303630FFF3D3EA4A663AA3 HTTP/1.1
+Host: clients1.google.com
+Connection: keep-alive
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+
+
+$$$$$$ Request Header For Transaction With Id 90 Ended $$$$$$
+
+****** Response Header For Transaction With Id 90 ******
+HTTP/1.1 200 OK
+Content-Security-Policy: script-src 'report-sample' 'nonce-ADDx9pILQgBBAt53wOf71Q' 'unsafe-inline' 'strict-dynamic' https: http:;object-src 'none';base-uri 'self';report-uri https://csp.withgoogle.com/csp/download-dt/1
+Content-Security-Policy: script-src 'report-sample' 'nonce-EJgvsvy514WohAaHgWfGpQ' 'unsafe-inline' 'strict-dynamic' https: http:;object-src 'none';base-uri 'self';report-uri https://csp.withgoogle.com/csp/download-dt/1
+Content-Type: text/html; charset=utf-8
+Content-Encoding: gzip
+Date: Fri, 13 Jan 2023 11:47:18 GMT
+Expires: Fri, 13 Jan 2023 11:47:18 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+Transfer-Encoding: chunked
+
+
+$$$$$$ Response Header For Transaction With Id 90 Ended $$$$$$
+
+****** Response Body For Transaction With Id 90 ******
+rlzC1: 1C1CHZO_ruRU1017RU1017
+rlzC2: 1C2CHZO_ruRU1017
+rlzC7: 1C7CHZO_ruRU1017
+dcc: 
+set_dcc: C1:1C1CHZO_ruRU1017RU1017,C2:1C2CHZO_ruRU1017,C7:1C7CHZO_ruRU1017
+events: C1S
+stateful-events: 
+crc32: b28e507f
+
+$$$$$$ Response Body For Transaction With Id 90 Ended $$$$$$
+
+[Traffic Filtering] Filtering update.googleapis.com
+****** Request Header For Transaction With Id 98 ******
+POST /service/update2/json HTTP/1.1
+Host: update.googleapis.com
+Connection: keep-alive
+Content-Length: 1429
+Content-Type: application/json
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate
+
+
+$$$$$$ Request Header For Transaction With Id 98 Ended $$$$$$
+
+****** Request Body For Transaction With Id 98 ******
+{"request":{"@os":"win","@updater":"chrome","acceptformat":"crx3","app":[{"appid":"jamhcnnkihinmdlkakkaopbjbbcngflc","brand":"CHZO","cohort":"1:wvr:","cohorthint":"Auto","cohortname":"Auto","enabled":true,"event":[{"download_time_ms":12076,"downloaded":818331,"downloader":"bits","eventresult":1,"eventtype":14,"nextversion":"111.0.5536.0","previousversion":"111.0.5535.0","total":818331,"url":"http://edgedl.me.gvt1.com/edgedl/release2/chrome_component/acljiwkhurl7eyqu4xtgzjoj3t4q_111.0.5536.0/jamhcnnkihinmdlkakkaopbjbbcngflc_111.0.5536.0_all_adwlukhwh2wnrmrdot73hvhniyca.crx3"},{"eventresult":1,"eventtype":3,"nextfp":"1.9ac54b20ec930179c2b7d3843f9a6f8d4e87af9931434315cc85a6812e3a4998","nextversion":"111.0.5536.0","previousfp":"1.c02e326844a5ed0745e2252a2af4bb3b872ab5a0e0a29d49baa0888da3cf9039","previousversion":"111.0.5535.0"}],"lang":"ru","packages":{"package":[{"fp":"1.9ac54b20ec930179c2b7d3843f9a6f8d4e87af9931434315cc85a6812e3a4998"}]},"version":"111.0.5536.0"}],"arch":"x64","dedup":"cr","domainjoined":false,
+$$$$$$ Request Body For Transaction With Id 98 Ended $$$$$$
+
+****** Response Header For Transaction With Id 98 ******
+HTTP/1.1 200 OK
+Content-Security-Policy: script-src 'report-sample' 'nonce-x-ddwzezZFRhxG5Ta4updg' 'unsafe-inline' 'strict-dynamic' https: http:;object-src 'none';base-uri 'self';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Fri, 13 Jan 2023 11:47:37 GMT
+Content-Type: application/json; charset=utf-8
+X-Daynum: 5856
+X-Daystart: 13657
+Content-Encoding: gzip
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 184
+Server: GSE
+
+
+$$$$$$ Response Header For Transaction With Id 98 Ended $$$$$$
+
+****** Response Body For Transaction With Id 98 ******
+)]}'
+{"response":{"server":"prod","protocol":"3.1","daystart":{"elapsed_seconds":13657,"elapsed_days":5856},"app":[{"cohorthint":"Auto","appid":"jamhcnnkihinmdlkakkaopbjbbcngflc","status":"ok","event":[{"status":"ok"},{"status":"ok"}]}]}}
+$$$$$$ Response Body For Transaction With Id 98 Ended $$$$$$
+
+****** Request Header For Transaction With Id 105 ******
+GET /cgi-bin/welcome.pl?page=itinerary HTTP/1.1
+Host: localhost:1080
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="99", "Google Chrome";v="109", "Chromium";v="109"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: frame
+Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: MSO=SID&1673610365; MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&lastName&Bean%0A&address1&&creditCard&&expDate&%0A
+
+
+$$$$$$ Request Header For Transaction With Id 105 Ended $$$$$$
+
+****** Response Header For Transaction With Id 105 ******
+HTTP/1.1 200 OK
+Date: Fri, 13 Jan 2023 11:47:43 GMT
+Server: Apache/2.2.21 (Win32)
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 105 Ended $$$$$$
+
+****** Response Body For Transaction With Id 105 ******
+<!-- 
+ User wants the intineraries.  Since user has already logged on,
+ we can give them the menu in the navbar.
+ --->
+
+<html>
+<title>Web Tours</title>
+   <!-- Frame Set -->
+   <frameset cols="160,*" border="1" frameborder="1">
+      <!-- Navigation Frame -->
+      <frame src="nav.pl?page=menu&in=itinerary" name="navbar" 
+            marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>
+      <!-- Itinerary Frame -->
+      <frame src="itinerary.pl" name="info" 
+            marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>
+   </frameset>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 105 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/cgi-bin/welcome.pl?signOff=true
+		/cgi-bin/nav.pl?in=home
+		Form: name= action=/cgi-bin/login.pl
+		/WebTours/home.html
+	/cgi-bin/login.pl
+		/cgi-bin/nav.pl?page=menu&in=home
+		/cgi-bin/login.pl?intro=true
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 105 ****** (Location Flag : tFlagInsertEnd, Location ID : 105)
+	web_image("Itinerary Button",
+		"Alt=Itinerary Button",
+		"Snapshot=t3.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 105 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 66)
+	web_add_header("Origin",
+		"http://localhost:1080");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 66)
+	web_add_auto_header("Sec-Fetch-User",
+		"?1");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Request Header For Transaction With Id 108 ******
+GET /cgi-bin/itinerary.pl HTTP/1.1
+Host: localhost:1080
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="99", "Google Chrome";v="109", "Chromium";v="109"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: frame
+Referer: http://localhost:1080/cgi-bin/welcome.pl?page=itinerary
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: MSO=SID&1673610365; MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&lastName&Bean%0A&address1&&creditCard&&expDate&%0A
+
+
+$$$$$$ Request Header For Transaction With Id 108 Ended $$$$$$
+
+****** Response Header For Transaction With Id 108 ******
+HTTP/1.1 200 OK
+Date: Fri, 13 Jan 2023 11:47:43 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Thu, 12 Jan 2023 11:47:44 GMT
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 108 Ended $$$$$$
+
+****** Response Body For Transaction With Id 108 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Flights List</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 8pt; color: black}</style><BR/><BR/><h1><font color="#003366">&nbsp;&nbsp;<b>Itinerary</font></b></h1><blockquote><form method="post" action="itinerary.pl" enctype="application/x-www-form-urlencoded">
+<center>
+<TABLE BORDER="0" WIDTH="85%" CELLSPACING="0">
+<TR bgcolor="#5E7884">
+  <TD colspan="4" align="center"><font color="white"><B>Jojo Bean
+ 's Flight Transaction Summary</B></color></TD></TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="1" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="0-0-JB"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;  class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+Bean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          Jojo Bean
+<br/>
+          ;Bean<br/>
+          ;;;;1234567891;10/30<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-1)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+   :  8am : Flight  leaves Denver  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="2" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="0-1976-92"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp; 680 class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>Bean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          940 2680Jojo<br/>
+          ;Bean<br/>
+          ;;;;12345678911;Oxford;Window<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+   :  8am : Flight  leaves Denver  for Denver.<br>  0 :  8am : Flight 570 leaves Portland  for Seattle.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="3" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="0-0-JB"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp; Jojo Bean
+ class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>      <li><i>      <li><i>270      <li><i>10600      <li><i>0      <li><i>0
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          Jojo Bean
+<br/>
+          ord<br/>
+          ;;;;;;;1234567891;10/30<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-1)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+   :  8am : Flight Jojo leaves Denver  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="4" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="0-3-"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp; ht}
+ class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>      <li><i>User1      <li><i>User_1
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+           <br/>
+          ;;Jojo;Bean<br/>
+          ;Oxford<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+   :  8am : Flight rd1
+ leaves Denver  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="5" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="0-3-"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;  class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>1      <li><i>Coach      <li><i>Aisle
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+           <br/>
+          ;<br/>
+          ;;;;;1;Coach;None<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+   :  8am : Flight  leaves Denver  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="6" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="0-48-"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp; 
+ class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>      <li><i>      <li><i>
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+           <br/>
+          <br/>
+          ;;;;<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+   :  8am : Flight  leaves Denver  for Denver.<br>  Jojo BeanUser1 :  11pm : Flight 3 leaves Denver  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="7" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="0-5-"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;  class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>      <li><i>111122223333      <li><i>10/31
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+           <br/>
+          ;;;1111222233331;Coach;User1 User_1<br/>
+          ;ht}<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  ht}
+ :  1pm : Flight 1 leaves Denver  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="8" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="0-6-"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;  class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>      <li><i>      <li><i>      <li><i>London1
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+           <br/>
+          ;;;;111122223333;10/31<br/>
+          1;Business;User1 User_1<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  1111222233331 :  8am : Flight  leaves Denver  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="9" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="0-70-"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;  class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>      <li><i>      <li><i>      <li><i>London1
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+           <br/>
+          ;;Oxford1<br/>
+          ;;;1111222233331;Business;User1 User_1<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  111122223333 :  8am : Flight  leaves Denver  for Denver.<br>  ht}
+ :  1pm : Flight 1 leaves Denver  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="10" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="0-7-"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp; ht}
+ class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>      <li><i>      <li><i>Oxford1
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+           <br/>
+          ;;Oxford1<br/>
+          ;;;;111122223333;10/31<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-1)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+   :  8am : Flight  leaves Denver  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="11" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="0-8-h"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp; ht}
+ class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>      <li><i>      <li><i>User1      <li><i>      <li><i>Oxford1
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+           ht}
+<br/>
+          ;;User1;User_1<br/>
+          ;;Oxford1<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+   :  8am : Flight  leaves Denver  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="12" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="0-9-1F"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;A First class ticket for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>ht}
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          1 First<br/>
+          ;;;User1;User_1<br/>
+          ;;Oxford1<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+   :  8am : Flight  leaves Denver  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="13" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="0-100-"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;
+  class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+           <br/>
+          ;ht}<br/>
+          ;;User1;User_1<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+   :  8am : Flight  leaves Denver  for Denver.<br>  None
+ :  1pm : Flight 1 leaves Denver  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="14" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="0-108-J"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;Oxford1
+  class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+London1
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+           Jojo Bean
+<br/>
+          481;1273;01/14/2023<br/>
+          0;0;0<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-ser1)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+   :  11pm : Flight 111122223333 leaves   for Los Angeles.<br>  None
+ :  1pm : Flight 1 leaves Denver  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="15" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="0-11-U"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;  class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+</i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+           User1 User_1
+<br/>
+          {outboundFlight}<br/>
+          240;204;02/14/2023<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+   :  8am : Flight  leaves Denver  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+<TR>
+   <TD align="center" COLSPAN="4">
+   <b>A total of 15 scheduled flights.</font></b>
+   </TD>
+</TR>
+</TABLE>
+
+<TABLE WIDTH="87%" BORDER="0" CELLSPACING="0">
+<TR>
+<TD align="left" width="50%" >
+<input type="image" name="removeFlights" src="/WebTours/images/cancelreservation.gif" border="0" /></TD>
+<TD align="right" width="50%" >
+<input type="image" name="removeAllFlights" src="/WebTours/images/cancelallreservations.gif" border="0" /></TD>
+</TABLE>
+
+<div><input type="hidden" name=".cgifields" value="6"  /><input type="hidden" name=".cgifields" value="11"  /><input type="hidden" name=".cgifields" value="3"  /><input type="hidden" name=".cgifields" value="7"  /><input type="hidden" name=".cgifields" value="9"  /><input type="hidden" name=".cgifields" value="12"  /><input type="hidden" name=".cgifields" value="2"  /><input type="hidden" name=".cgifields" value="15"  /><input type="hidden" name=".cgifields" value="14"  /><input type="hidden" name=".cgifields" value="8"  /><input type="hidden" name=".cgifields" value="1"  /><input type="hidden" name=".cgifields" value="4"  /><input type="hidden" name=".cgifields" value="13"  /><input type="hidden" name=".cgifields" value="10"  /><input type="hidden" name=".cgifields" value="5"  /></div></form>
+
+</center>
+
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 108 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/cgi-bin/welcome.pl?signOff=true
+		/cgi-bin/nav.pl?in=home
+		Form: name= action=/cgi-bin/login.pl
+		/WebTours/home.html
+	/cgi-bin/welcome.pl?page=itinerary
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 105)
+	web_revert_auto_header("Sec-Fetch-User");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Request Header For Transaction With Id 112 ******
+GET /cgi-bin/nav.pl?page=menu&in=itinerary HTTP/1.1
+Host: localhost:1080
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="99", "Google Chrome";v="109", "Chromium";v="109"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: frame
+Referer: http://localhost:1080/cgi-bin/welcome.pl?page=itinerary
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: MSO=SID&1673610365; MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&lastName&Bean%0A&address1&&creditCard&&expDate&%0A
+
+
+$$$$$$ Request Header For Transaction With Id 112 Ended $$$$$$
+
+****** Response Header For Transaction With Id 112 ******
+HTTP/1.1 200 OK
+Date: Fri, 13 Jan 2023 11:47:43 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Thu, 12 Jan 2023 11:47:44 GMT
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 112 Ended $$$$$$
+
+****** Response Body For Transaction With Id 112 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+
+<style>
+	blockquote {font-family: tahoma; font-size : 10pt}
+	H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+	small {font-family: tahoma; font-size : 8pt}
+	H3{font-family: tahoma; font-size : 10pt; color: black}
+	A {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATION: none}
+	A:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DECORATION: underline}
+	TD {font-family: tahoma; font-size : 10pt; color: black}
+</style>
+
+<BR><BR><center>
+
+<br clear="both"/><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/flights.gif" 
+ALT="Search Flights Button"/></A>
+<br clear="both"/><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/in_itinerary.gif" 
+ALT="Itinerary Button"/></A>
+<br clear="both"/><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/home.gif" 
+ALT="Home Button"/></A>
+<br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/signoff.gif" 
+ALT="SignOff Button"/></A></center>
+
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 112 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/cgi-bin/welcome.pl?signOff=true
+		/cgi-bin/nav.pl?in=home
+		Form: name= action=/cgi-bin/login.pl
+		/WebTours/home.html
+	/cgi-bin/welcome.pl?page=itinerary
+		The Node is NULL
+		/cgi-bin/itinerary.pl
+		Form: name= action=itinerary.pl
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 125 ******
+POST /cgi-bin/itinerary.pl HTTP/1.1
+Host: localhost:1080
+Connection: keep-alive
+Content-Length: 483
+Cache-Control: max-age=0
+sec-ch-ua: "Not_A Brand";v="99", "Google Chrome";v="109", "Chromium";v="109"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+Origin: http://localhost:1080
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: frame
+Referer: http://localhost:1080/cgi-bin/itinerary.pl
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: MSO=SID&1673610365; MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&lastName&Bean%0A&address1&&creditCard&&expDate&%0A
+
+
+$$$$$$ Request Header For Transaction With Id 125 Ended $$$$$$
+
+****** Request Body For Transaction With Id 125 ******
+1=on&flightID=0-0-JB&flightID=0-1976-92&3=on&flightID=0-0-JB&flightID=0-3-&flightID=0-3-&6=on&flightID=0-48-&flightID=0-5-&flightID=0-6-&flightID=0-70-&flightID=0-7-&flightID=0-8-h&flightID=0-9-1F&flightID=0-100-&flightID=0-108-J&flightID=0-11-U&removeFlights.x=64&removeFlights.y=8&.cgifields=6&.cgifields=11&.cgifields=3&.cgifields=7&.cgifields=9&.cgifields=12&.cgifields=2&.cgifields=15&.cgifields=14&.cgifields=8&.cgifields=1&.cgifields=4&.cgifields=13&.cgifields=10&.cgifields=5
+$$$$$$ Request Body For Transaction With Id 125 Ended $$$$$$
+
+****** Response Header For Transaction With Id 125 ******
+HTTP/1.1 200 OK
+Date: Fri, 13 Jan 2023 11:48:45 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Thu, 12 Jan 2023 11:48:45 GMT
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 125 Ended $$$$$$
+
+****** Response Body For Transaction With Id 125 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Flights List</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 8pt; color: black}</style><BR/><BR/><h1><font color="#003366">&nbsp;&nbsp;<b>Itinerary</font></b></h1><blockquote><form method="post" action="itinerary.pl" enctype="application/x-www-form-urlencoded">
+<center>
+<TABLE BORDER="0" WIDTH="85%" CELLSPACING="0">
+<TR bgcolor="#5E7884">
+  <TD colspan="4" align="center"><font color="white"><B>940 2680Jojo 's Flight Transaction Summary</B></color></TD></TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="1" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="0-0-92"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp; 680 class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>      <li><i>570      <li><i>1210      <li><i>0      <li><i>      <li><i>      <li><i>ht}
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          940 2680Jojo<br/>
+          ;Bean<br/>
+          ;;;;12345678911;Oxford;Window<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  Jojo :  8am : Flight  leaves Denver  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="2" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="0-1-"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp; 
+ class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>      <li><i>      <li><i>      <li><i>      <li><i>1      <li><i>Coach      <li><i>None
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+           <br/>
+          ;;;User1;User_1<br/>
+          rd1<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+   :  8am : Flight  leaves Denver  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="3" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="0-2-U"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp; ht}
+ class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>      <li><i>      <li><i>      <li><i>      <li><i>111122223333      <li><i>10/31
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+           User1 User_1
+<br/>
+          ;;ht}<br/>
+          ;;;Oxford1<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  ht}
+ :  1pm : Flight 1 leaves Denver  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="4" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="0-3-"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;  class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>      <li><i>      <li><i>User1      <li><i>User_1
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+           <br/>
+          1;Business;User1 User_1<br/>
+          ;ht}<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  Oxford1
+ :  8am : Flight  leaves Denver  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="5" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="0-3-h"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;  class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>      <li><i>      <li><i>      <li><i>111122223333      <li><i>10/31
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+           ht}
+<br/>
+          ;;;;;;London1<br/>
+          ;;1111222233331;Business;ht}<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  ht}
+ :  1pm : Flight 1 leaves Denver  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="6" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="0-4-"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;  class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>      <li><i>      <li><i>      <li><i>1111222233331      <li><i>First      <li><i>ht}
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+           <br/>
+          ;;User1;User_1<br/>
+          ;;Oxford1<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+   :  8am : Flight  leaves Denver  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="7" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="0-5-1"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;  class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+           1<br/>
+          ;ht}<br/>
+          ;;;;;;1111222233331;First;User1 User_1<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  
+ :  8am : Flight  leaves Denver  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="8" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="0-6239324787179-1"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;ser1 User_1
+ class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+Oxford1
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+           1<br/>
+          ;Jojo Bean<br/>
+          481;1273;01/14/2023<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-0)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  London1
+ :  8am : Flight  leaves Denver  for Denver.<br>   :  11pm : Flight 111122223333 leaves   for Los Angeles.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="9" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="8-6-1"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;  class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+</i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+           1<br/>
+          ;User1 User_1<br/>
+          {outboundFlight}<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-240)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+   :  8am : Flight  leaves Denver  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+<TR>
+   <TD align="center" COLSPAN="4">
+   <b>A total of 9 scheduled flights.</font></b>
+   </TD>
+</TR>
+</TABLE>
+
+<TABLE WIDTH="87%" BORDER="0" CELLSPACING="0">
+<TR>
+<TD align="left" width="50%" >
+<input type="image" name="removeFlights" src="/WebTours/images/cancelreservation.gif" border="0" /></TD>
+<TD align="right" width="50%" >
+<input type="image" name="removeAllFlights" src="/WebTours/images/cancelallreservations.gif" border="0" /></TD>
+</TABLE>
+
+<div><input type="hidden" name=".cgifields" value="6"  /><input type="hidden" name=".cgifields" value="3"  /><input type="hidden" name=".cgifields" value="7"  /><input type="hidden" name=".cgifields" value="9"  /><input type="hidden" name=".cgifields" value="2"  /><input type="hidden" name=".cgifields" value="8"  /><input type="hidden" name=".cgifields" value="1"  /><input type="hidden" name=".cgifields" value="4"  /><input type="hidden" name=".cgifields" value="5"  /></div></form>
+
+</center>
+
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 125 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/cgi-bin/welcome.pl?signOff=true
+		/cgi-bin/nav.pl?in=home
+		Form: name= action=/cgi-bin/login.pl
+		/WebTours/home.html
+	/cgi-bin/welcome.pl?page=itinerary
+		/cgi-bin/nav.pl?page=menu&in=itinerary
+		/cgi-bin/itinerary.pl
+		Form: name= action=itinerary.pl
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 125 ****** (Location Flag : tFlagInsertEnd, Location ID : 125)
+	web_submit_form("itinerary.pl",
+		"Snapshot=t4.inf",
+		ITEMDATA,
+		"Name=1", "Value=on", ENDITEM,
+		"Name=2", "Value=<OFF>", ENDITEM,
+		"Name=3", "Value=on", ENDITEM,
+		"Name=4", "Value=<OFF>", ENDITEM,
+		"Name=5", "Value=<OFF>", ENDITEM,
+		"Name=6", "Value=on", ENDITEM,
+		"Name=7", "Value=<OFF>", ENDITEM,
+		"Name=8", "Value=<OFF>", ENDITEM,
+		"Name=9", "Value=<OFF>", ENDITEM,
+		"Name=10", "Value=<OFF>", ENDITEM,
+		"Name=11", "Value=<OFF>", ENDITEM,
+		"Name=12", "Value=<OFF>", ENDITEM,
+		"Name=13", "Value=<OFF>", ENDITEM,
+		"Name=14", "Value=<OFF>", ENDITEM,
+		"Name=15", "Value=<OFF>", ENDITEM,
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 125 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 125)
+	web_add_header("Origin",
+		"http://localhost:1080");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 125)
+	web_add_header("Sec-Fetch-User",
+		"?1");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+

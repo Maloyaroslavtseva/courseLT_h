@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\edwpo\courseLT\Скрипты\UC6_LookingBooking
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\edwpo\courselt\скрипты\uc6_lookingbooking\\logfile.log
+c:\users\edwpo\courselt\скрипты\uc6_lookingbooking\\combined_UC6_LookingBooking.c
+c:\users\edwpo\courselt\скрипты\uc6_lookingbooking\\pre_cci.c
