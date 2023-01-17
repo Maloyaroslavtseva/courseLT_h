@@ -130,7 +130,7 @@ Action()
 
 	lr_end_transaction("login",LR_AUTO);
 
-	lr_start_transaction("itinary");
+	lr_start_transaction("Itinerary");
 	
 	web_reg_find("SaveCount=noFlights",
 		"Text=No flights have been reserved",
@@ -145,7 +145,7 @@ Action()
 		"Snapshot=t3.inf", 
 		LAST);
 
-	lr_end_transaction("itinary",LR_AUTO);
+	lr_end_transaction("Itinerary",LR_AUTO);
 	
 	// No flights have been reserved.
 	lr_log_message("noFlights=%s", lr_eval_string("{noFlights}"));
@@ -155,7 +155,7 @@ Action()
 		lr_start_transaction("delete");
 		
 		web_reg_find("Fail=NotFound",
-			"Text/IC=class tickets for",
+			"Text/IC=Flight Details",
 			LAST);
 		
 	

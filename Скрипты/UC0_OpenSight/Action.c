@@ -1,6 +1,8 @@
 Action()
 {
-	
+
+    lr_start_transaction("UC0_OpenSitght");	
+    	
 	lr_start_transaction("open_sight");
     
     web_reg_find("Fail=NotFound",
@@ -43,6 +45,9 @@ Action()
 		LAST);
 	
 	lr_end_transaction("open_sight",LR_AUTO);
+	
+		
+	lr_end_transaction("UC0_OpenSitght",LR_AUTO);
 	
 	return 0;
 }

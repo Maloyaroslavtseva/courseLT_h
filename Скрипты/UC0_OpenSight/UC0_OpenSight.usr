@@ -52,7 +52,7 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="open_sight"
+Order="open_sight__*delimiter*__UC0_OpenSitght"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -60,3 +60,4 @@ LastReplayedRunName=result1
 ActiveRunName=result1
 [Transactions]
 open_sight=
+UC0_OpenSitght=
