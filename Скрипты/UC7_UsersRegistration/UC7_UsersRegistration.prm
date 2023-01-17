@@ -1,0 +1,8 @@
+[parameter:password]
+Format="%08lu"
+GenerateNewVal="EachIteration"
+MaxValue="99999999"
+MinValue="1"
+OriginalValue=""
+ParamName="password"
+Type="Random"
