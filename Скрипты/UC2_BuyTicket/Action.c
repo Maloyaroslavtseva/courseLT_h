@@ -262,7 +262,7 @@ Action()
 	}
 
 		
-    lr_save_string(lr_paramarr_random("outboundFlight"), "outboundFligh");
+    lr_save_string(lr_paramarr_random("outboundFlight"), "outboundFlight");
 
 	
 

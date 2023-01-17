@@ -171,16 +171,6 @@ Action()
 	
 	lr_save_datetime ("%m/%d/%Y", DATE_NOW+ONE_DAY*randNumber, "pDate2");
 	
-/*Correlation comment - Do not change!  Original value='291;241;12/26/2022' Name ='outboundFlight' Type ='ResponseBased'*/
-//	web_reg_save_param_attrib(
-//		"ParamName=outboundFlight",
-//		"TagName=input",
-//		"Extract=value",
-//		"Name=outboundFlight",
-//		"Type=radio",
-//		SEARCH_FILTERS,
-//		"IgnoreRedirections=No",
-//		LAST);
 
 	web_reg_save_param("outboundFlight",
 		"LB=outboundFlight\" value=\"",
@@ -214,7 +204,7 @@ Action()
 		LAST);
 		
 		
-    lr_save_string(lr_paramarr_random("outboundFlight"), "outboundFligh");
+    lr_save_string(lr_paramarr_random("outboundFlight"), "outboundFlight");
 
 	
 
