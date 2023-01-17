@@ -2735,8 +2735,9 @@ Action()
 
 	lr_end_transaction("login",2);
 
-	lr_start_transaction("itinary");
-	
+	lr_start_transaction("Itinerary");
+
+
 	web_reg_find("SaveCount=noFlights",
 		"Text=No flights have been reserved",
 		"LAST");
@@ -2750,37 +2751,112 @@ Action()
 		"Snapshot=t3.inf", 
 		"LAST");
 
-	lr_end_transaction("itinary",2);
+	lr_end_transaction("Itinerary",2);
 	
 	 
 	lr_log_message("noFlights=%s", lr_eval_string("{noFlights}"));
 
     if (atoi(lr_eval_string("{noFlights}"))!=1) {
-      	
-		lr_start_transaction("delete");
-		
-		web_reg_find("Fail=NotFound",
-			"Text/IC=class tickets for",
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+   
+        if (atoi(lr_eval_string("{numFlightsBefore}")) > 1 ) {
+	
+
+		    web_reg_save_param("numFlightsBefore",
+			"LB=A total of ",
+			"RB= scheduled",
 			"LAST");
-		
 	
-		web_add_header("Origin", 
-			"http://localhost:1080");
+			lr_start_transaction("delete");
+			
 	
-		web_add_header("Sec-Fetch-User", 
-			"?1");
-	
-		lr_think_time(61);
-	
-		web_submit_form("itinerary.pl", 
-			"Snapshot=t4.inf", 
-			"ITEMDATA", 
-			"Name=1", "Value=on", "ENDITEM", 
-	        "Name=removeFlights.x", "Value=61", "ENDITEM",
-			"Name=removeFlights.y", "Value=9", "ENDITEM",
+		    web_reg_save_param("numFlightsAfter",
+			"LB=A total of ",
+			"RB= scheduled",
 			"LAST");
-		lr_end_transaction("delete",2);
+			
+			
+			
+	 
+	 
+	 
+	
+		
+			web_add_header("Origin", 
+				"http://localhost:1080");
+		
+			web_add_header("Sec-Fetch-User", 
+				"?1");
+		
+			lr_think_time(61);
+		
+			web_submit_form("itinerary.pl", 
+				"Snapshot=t4.inf", 
+				"ITEMDATA", 
+				"Name=1", "Value=on", "ENDITEM", 
+		        "Name=removeFlights.x", "Value=61", "ENDITEM",
+				"Name=removeFlights.y", "Value=9", "ENDITEM",
+				"LAST");
+			
+			
+			if (atoi(lr_eval_string("{numFlightsBefore}"))-1 != atoi(lr_eval_string("{numFlightsAfter}"))) {
+				lr_end_transaction("delete", 1);		
+			}
+			else {
+				lr_end_transaction("delete",2);
+		    }
+       } else {
+	
+			lr_start_transaction("delete");
+			
+		
+			web_reg_find("SaveCount=noFlightsAfter",
+			"Text=No flights have been reserved",
+			"LAST");
+			
+			
+			
+	 
+	 
+	 
+	
+		
+			web_add_header("Origin", 
+				"http://localhost:1080");
+		
+			web_add_header("Sec-Fetch-User", 
+				"?1");
+		
+			lr_think_time(61);
+		
+			web_submit_form("itinerary.pl", 
+				"Snapshot=t4.inf", 
+				"ITEMDATA", 
+				"Name=1", "Value=on", "ENDITEM", 
+		        "Name=removeFlights.x", "Value=61", "ENDITEM",
+				"Name=removeFlights.y", "Value=9", "ENDITEM",
+				"LAST");
+			
+			
+			if (atoi(lr_eval_string("{noFlightsAfter}")) != 1) {
+				lr_end_transaction("delete", 1);		
+			}
+			else {
+				lr_end_transaction("delete",2);
+		    }
+
+        }
 	}
+
 	
 	lr_end_transaction("UC3_DeleteDooking",2);
 	
