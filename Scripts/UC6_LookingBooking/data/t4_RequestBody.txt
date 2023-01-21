@@ -1,0 +1,6 @@
+"1=on&flightID=0-0-JB&flightID=0-1976-92&3=on&flightID=0-0-JB&flightID=0-3-&flightID=0-3-&6=on&"
+"flightID=0-48-&flightID=0-5-&flightID=0-6-&flightID=0-70-&flightID=0-7-&flightID=0-8-h&flightI"
+"D=0-9-1F&flightID=0-100-&flightID=0-108-J&flightID=0-11-U&removeFlights.x=64&removeFlights.y=8"
+"&.cgifields=6&.cgifields=11&.cgifields=3&.cgifields=7&.cgifields=9&.cgifields=12&.cgifields=2&"
+".cgifields=15&.cgifields=14&.cgifields=8&.cgifields=1&.cgifields=4&.cgifields=13&.cgifields=10"
+"&.cgifields=5"
