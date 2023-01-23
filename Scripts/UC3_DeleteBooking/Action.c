@@ -137,6 +137,11 @@ Action()
 		"Text=No flights have been reserved",
 		LAST);
 
+	web_reg_save_param("numFlightsBefore",
+			"LB=A total of ",
+			"RB= scheduled",
+			LAST);
+	
 	web_revert_auto_header("Sec-Fetch-User");
 
 	lr_think_time(6);
@@ -151,7 +156,8 @@ Action()
 	// No flights have been reserved.
 	lr_log_message("noFlights=%s", lr_eval_string("{noFlights}"));
 
-    if (atoi(lr_eval_string("{noFlights}"))!=1) {
+    if (atoi(lr_eval_string("{noFlights}"))!=1) { // Есть бронь!
+		
 
 // способ не проходит, иногда возникает ошибка видимо из-за того что номера рейсов случайные
 //	Action.c(177): Error -26368: "Text=flightID" value="0-0-{" found for web_reg_find (count=1)  	[MsgId: MERR-26368]
@@ -161,19 +167,11 @@ Action()
 //		LAST);
 // 
 
-
    
-        if (atoi(lr_eval_string("{numFlightsBefore}")) > 1 ) {
-	
+        if (atoi(lr_eval_string("{numFlightsBefore}")) > 1 ) { // количество брони больше 1
 
-		    web_reg_save_param("numFlightsBefore",
-			"LB=A total of ",
-			"RB= scheduled",
-			LAST);
-	
 			lr_start_transaction("delete");
 			
-	
 		    web_reg_save_param("numFlightsAfter",
 			"LB=A total of ",
 			"RB= scheduled",
@@ -209,7 +207,7 @@ Action()
 			else {
 				lr_end_transaction("delete",LR_AUTO);
 		    }
-       } else {
+       } else { // количество брони 1
 	
 			lr_start_transaction("delete");
 			
@@ -218,11 +216,6 @@ Action()
 			"Text=No flights have been reserved",
 			LAST);
 			
-			
-			
-	//		web_reg_find("Fail=Found",
-	//		"Text=flightID\" value=\"{flightID}",
-	//		LAST);
 	
 		
 			web_add_header("Origin", 
@@ -250,10 +243,16 @@ Action()
 		    }
 
         }
+	} 
+	else { // atoi(lr_eval_string("{noFlights}")) ==1 - удалять нечего
+		
+		lr_start_transaction("delete");
+		lr_end_transaction("delete",LR_AUTO);
+			
 	}
 
 	
-		lr_start_transaction("logout");
+	lr_start_transaction("logout");
 	
 	web_reg_find("Fail=NotFound",
 		"Text/IC=Welcome to the Web Tours site.",

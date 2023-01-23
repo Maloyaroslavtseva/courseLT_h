@@ -52,7 +52,7 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="UC3_DeleteDooking__*delimiter*__open_sight__*delimiter*__login__*delimiter*__Itinerary__*delimiter*__delete__*delimiter*__delete__*delimiter*__logout"
+Order="UC3_DeleteDooking__*delimiter*__open_sight__*delimiter*__login__*delimiter*__Itinerary__*delimiter*__delete__*delimiter*__delete__*delimiter*__logout__*delimiter*__delete"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
